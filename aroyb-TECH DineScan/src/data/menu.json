@@ -1,0 +1,419 @@
+{
+  "categories": [
+    { "id": "sharers", "name": "Sharers", "description": "Perfect for sharing", "sortOrder": 1, "courseType": "sharers" },
+    { "id": "starters", "name": "Starters", "description": "Begin your meal", "sortOrder": 2, "courseType": "starters" },
+    { "id": "mains", "name": "Main Courses", "description": "Signature dishes", "sortOrder": 3, "courseType": "mains" },
+    { "id": "sides", "name": "Sides & Rice", "description": "Perfect accompaniments", "sortOrder": 4, "courseType": "mains" },
+    { "id": "desserts", "name": "Desserts", "description": "Sweet endings", "sortOrder": 5, "courseType": "desserts" },
+    { "id": "drinks", "name": "Drinks", "description": "Beverages", "sortOrder": 6, "courseType": "drinks" }
+  ],
+  "items": [
+    {
+      "id": "mixed-platter",
+      "categoryId": "sharers",
+      "name": "Mixed Grill Platter",
+      "description": "A grand selection of tandoori chicken, lamb seekh kebab, chicken tikka, and onion bhajis. Perfect for 3-4 guests.",
+      "price": 24.95,
+      "images": ["https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=800"],
+      "available": true,
+      "popular": true,
+      "spiceLevel": 2,
+      "allergens": ["gluten"],
+      "dietaryTags": ["halal"],
+      "courseType": "sharers",
+      "servesCount": "Serves 3-4",
+      "modifiers": [],
+      "addOns": [
+        { "id": "extra-dip", "name": "Extra Mint Raita", "price": 1.50 }
+      ]
+    },
+    {
+      "id": "naan-basket",
+      "categoryId": "sharers",
+      "name": "Naan Bread Basket",
+      "description": "Selection of freshly baked naans: plain, garlic, peshwari. Warm from the tandoor.",
+      "price": 9.95,
+      "images": ["https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800"],
+      "available": true,
+      "spiceLevel": 0,
+      "allergens": ["gluten", "dairy", "nuts"],
+      "dietaryTags": ["vegetarian"],
+      "courseType": "sharers",
+      "servesCount": "Serves 2-3",
+      "modifiers": [],
+      "addOns": []
+    },
+    {
+      "id": "poppadoms",
+      "categoryId": "sharers",
+      "name": "Poppadoms & Chutneys",
+      "description": "Crispy poppadoms with mango chutney, mint raita, and spicy onion salad.",
+      "price": 4.95,
+      "images": ["https://images.unsplash.com/photo-1567337710282-00832b415979?w=800"],
+      "available": true,
+      "spiceLevel": 1,
+      "allergens": [],
+      "dietaryTags": ["vegan", "gluten-free"],
+      "courseType": "sharers",
+      "servesCount": "Serves 2",
+      "modifiers": [],
+      "addOns": []
+    },
+    {
+      "id": "samosas",
+      "categoryId": "starters",
+      "name": "Vegetable Samosas",
+      "description": "Crispy pastry triangles filled with spiced potatoes and peas. Served with tamarind chutney.",
+      "price": 5.95,
+      "images": ["https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800"],
+      "available": true,
+      "popular": true,
+      "spiceLevel": 1,
+      "allergens": ["gluten"],
+      "dietaryTags": ["vegetarian", "vegan"],
+      "courseType": "starters",
+      "modifiers": [],
+      "addOns": []
+    },
+    {
+      "id": "onion-bhaji",
+      "categoryId": "starters",
+      "name": "Onion Bhajis",
+      "description": "Crispy deep-fried onion fritters with aromatic spices.",
+      "price": 5.50,
+      "images": ["https://images.unsplash.com/photo-1626132647523-66f5bf380027?w=800"],
+      "available": true,
+      "spiceLevel": 1,
+      "allergens": ["gluten"],
+      "dietaryTags": ["vegetarian", "vegan"],
+      "courseType": "starters",
+      "modifiers": [],
+      "addOns": []
+    },
+    {
+      "id": "chicken-tikka-starter",
+      "categoryId": "starters",
+      "name": "Chicken Tikka",
+      "description": "Tender chicken pieces marinated in yoghurt and spices, cooked in the tandoor.",
+      "price": 7.95,
+      "images": ["https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=800"],
+      "available": true,
+      "popular": true,
+      "spiceLevel": 2,
+      "allergens": ["dairy"],
+      "dietaryTags": ["halal", "gluten-free"],
+      "courseType": "starters",
+      "modifiers": [
+        {
+          "id": "spice-level",
+          "name": "Spice Level",
+          "required": true,
+          "multiSelect": false,
+          "options": [
+            { "id": "mild", "name": "Mild", "priceAdjustment": 0, "default": true },
+            { "id": "medium", "name": "Medium", "priceAdjustment": 0 },
+            { "id": "hot", "name": "Hot", "priceAdjustment": 0 }
+          ]
+        }
+      ],
+      "addOns": []
+    },
+    {
+      "id": "lamb-seekh",
+      "categoryId": "starters",
+      "name": "Lamb Seekh Kebab",
+      "description": "Minced lamb with fresh herbs and spices, grilled on skewers.",
+      "price": 8.95,
+      "images": ["https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800"],
+      "available": true,
+      "spiceLevel": 2,
+      "allergens": ["gluten"],
+      "dietaryTags": ["halal"],
+      "courseType": "starters",
+      "modifiers": [],
+      "addOns": []
+    },
+    {
+      "id": "chicken-tikka-masala",
+      "categoryId": "mains",
+      "name": "Chicken Tikka Masala",
+      "description": "Britain's favourite curry. Tender chicken tikka pieces in a creamy tomato masala sauce.",
+      "price": 14.95,
+      "images": ["https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800"],
+      "available": true,
+      "popular": true,
+      "spiceLevel": 2,
+      "allergens": ["dairy"],
+      "dietaryTags": ["halal", "gluten-free"],
+      "courseType": "mains",
+      "modifiers": [
+        {
+          "id": "spice-level",
+          "name": "Spice Level",
+          "required": true,
+          "multiSelect": false,
+          "options": [
+            { "id": "mild", "name": "Mild", "priceAdjustment": 0 },
+            { "id": "medium", "name": "Medium", "priceAdjustment": 0, "default": true },
+            { "id": "hot", "name": "Hot", "priceAdjustment": 0 },
+            { "id": "extra-hot", "name": "Extra Hot 🔥", "priceAdjustment": 0 }
+          ]
+        }
+      ],
+      "addOns": [
+        { "id": "extra-chicken", "name": "Extra Chicken", "price": 3.50 }
+      ]
+    },
+    {
+      "id": "lamb-rogan-josh",
+      "categoryId": "mains",
+      "name": "Lamb Rogan Josh",
+      "description": "Slow-cooked lamb in a rich Kashmiri gravy with aromatic spices.",
+      "price": 16.95,
+      "images": ["https://images.unsplash.com/photo-1574484284002-952d92456975?w=800"],
+      "available": true,
+      "spiceLevel": 3,
+      "allergens": ["dairy"],
+      "dietaryTags": ["halal", "gluten-free"],
+      "courseType": "mains",
+      "modifiers": [
+        {
+          "id": "spice-level",
+          "name": "Spice Level",
+          "required": true,
+          "multiSelect": false,
+          "options": [
+            { "id": "mild", "name": "Mild", "priceAdjustment": 0 },
+            { "id": "medium", "name": "Medium", "priceAdjustment": 0, "default": true },
+            { "id": "hot", "name": "Hot", "priceAdjustment": 0 }
+          ]
+        }
+      ],
+      "addOns": []
+    },
+    {
+      "id": "prawn-biryani",
+      "categoryId": "mains",
+      "name": "King Prawn Biryani",
+      "description": "Fragrant basmati rice layered with succulent king prawns and aromatic spices. Served with raita.",
+      "price": 18.95,
+      "images": ["https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800"],
+      "available": true,
+      "spiceLevel": 2,
+      "allergens": ["shellfish", "dairy"],
+      "dietaryTags": ["gluten-free"],
+      "courseType": "mains",
+      "modifiers": [],
+      "addOns": []
+    },
+    {
+      "id": "paneer-tikka-masala",
+      "categoryId": "mains",
+      "name": "Paneer Tikka Masala",
+      "description": "Grilled paneer cubes in a creamy tomato masala sauce. Vegetarian favourite.",
+      "price": 13.95,
+      "images": ["https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=800"],
+      "available": true,
+      "popular": true,
+      "spiceLevel": 2,
+      "allergens": ["dairy"],
+      "dietaryTags": ["vegetarian", "gluten-free"],
+      "courseType": "mains",
+      "modifiers": [
+        {
+          "id": "spice-level",
+          "name": "Spice Level",
+          "required": true,
+          "multiSelect": false,
+          "options": [
+            { "id": "mild", "name": "Mild", "priceAdjustment": 0, "default": true },
+            { "id": "medium", "name": "Medium", "priceAdjustment": 0 },
+            { "id": "hot", "name": "Hot", "priceAdjustment": 0 }
+          ]
+        }
+      ],
+      "addOns": []
+    },
+    {
+      "id": "chana-masala",
+      "categoryId": "mains",
+      "name": "Chana Masala",
+      "description": "Spiced chickpea curry in a tangy tomato-based sauce. Hearty and vegan.",
+      "price": 11.95,
+      "images": ["https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800"],
+      "available": true,
+      "spiceLevel": 2,
+      "allergens": [],
+      "dietaryTags": ["vegan", "gluten-free"],
+      "courseType": "mains",
+      "modifiers": [],
+      "addOns": []
+    },
+    {
+      "id": "pilau-rice",
+      "categoryId": "sides",
+      "name": "Pilau Rice",
+      "description": "Fragrant basmati rice with cumin and cardamom.",
+      "price": 3.95,
+      "images": ["https://images.unsplash.com/photo-1516714435131-44d6b64dc6a2?w=800"],
+      "available": true,
+      "spiceLevel": 0,
+      "allergens": [],
+      "dietaryTags": ["vegan", "gluten-free"],
+      "courseType": "mains",
+      "modifiers": [],
+      "addOns": []
+    },
+    {
+      "id": "garlic-naan",
+      "categoryId": "sides",
+      "name": "Garlic Naan",
+      "description": "Freshly baked naan bread with garlic butter.",
+      "price": 3.50,
+      "images": ["https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800"],
+      "available": true,
+      "popular": true,
+      "spiceLevel": 0,
+      "allergens": ["gluten", "dairy"],
+      "dietaryTags": ["vegetarian"],
+      "courseType": "mains",
+      "modifiers": [],
+      "addOns": []
+    },
+    {
+      "id": "raita",
+      "categoryId": "sides",
+      "name": "Mint Raita",
+      "description": "Cool yoghurt with mint and cucumber.",
+      "price": 2.50,
+      "images": ["https://images.unsplash.com/photo-1567337710282-00832b415979?w=800"],
+      "available": true,
+      "spiceLevel": 0,
+      "allergens": ["dairy"],
+      "dietaryTags": ["vegetarian", "gluten-free"],
+      "courseType": "mains",
+      "modifiers": [],
+      "addOns": []
+    },
+    {
+      "id": "gulab-jamun",
+      "categoryId": "desserts",
+      "name": "Gulab Jamun",
+      "description": "Warm milk dumplings soaked in rose-scented syrup. Served with vanilla ice cream.",
+      "price": 5.95,
+      "images": ["https://images.unsplash.com/photo-1666190094762-2a8a09c09391?w=800"],
+      "available": true,
+      "popular": true,
+      "spiceLevel": 0,
+      "allergens": ["dairy", "gluten"],
+      "dietaryTags": ["vegetarian"],
+      "courseType": "desserts",
+      "modifiers": [],
+      "addOns": []
+    },
+    {
+      "id": "mango-kulfi",
+      "categoryId": "desserts",
+      "name": "Mango Kulfi",
+      "description": "Traditional Indian ice cream with Alphonso mango.",
+      "price": 4.95,
+      "images": ["https://images.unsplash.com/photo-1488900128323-21503983a07e?w=800"],
+      "available": true,
+      "spiceLevel": 0,
+      "allergens": ["dairy", "nuts"],
+      "dietaryTags": ["vegetarian", "gluten-free"],
+      "courseType": "desserts",
+      "modifiers": [],
+      "addOns": []
+    },
+    {
+      "id": "mango-lassi",
+      "categoryId": "drinks",
+      "name": "Mango Lassi",
+      "description": "Creamy yoghurt drink blended with sweet Alphonso mango.",
+      "price": 4.50,
+      "images": ["https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=800"],
+      "available": true,
+      "popular": true,
+      "spiceLevel": 0,
+      "allergens": ["dairy"],
+      "dietaryTags": ["vegetarian", "gluten-free"],
+      "courseType": "drinks",
+      "modifiers": [],
+      "addOns": []
+    },
+    {
+      "id": "masala-chai",
+      "categoryId": "drinks",
+      "name": "Masala Chai",
+      "description": "Spiced Indian tea with cardamom, cinnamon, and ginger.",
+      "price": 3.50,
+      "images": ["https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=800"],
+      "available": true,
+      "spiceLevel": 0,
+      "allergens": ["dairy"],
+      "dietaryTags": ["vegetarian", "gluten-free"],
+      "courseType": "drinks",
+      "modifiers": [],
+      "addOns": []
+    },
+    {
+      "id": "kingfisher",
+      "categoryId": "drinks",
+      "name": "Kingfisher Lager",
+      "description": "Refreshing Indian lager. 330ml bottle.",
+      "price": 4.95,
+      "images": ["https://images.unsplash.com/photo-1608270586620-248524c67de9?w=800"],
+      "available": true,
+      "spiceLevel": 0,
+      "allergens": ["gluten"],
+      "dietaryTags": [],
+      "courseType": "drinks",
+      "modifiers": [],
+      "addOns": []
+    },
+    {
+      "id": "cobra",
+      "categoryId": "drinks",
+      "name": "Cobra",
+      "description": "Smooth premium lager. 660ml bottle.",
+      "price": 6.50,
+      "images": ["https://images.unsplash.com/photo-1608270586620-248524c67de9?w=800"],
+      "available": true,
+      "spiceLevel": 0,
+      "allergens": ["gluten"],
+      "dietaryTags": [],
+      "courseType": "drinks",
+      "modifiers": [],
+      "addOns": []
+    },
+    {
+      "id": "soft-drinks",
+      "categoryId": "drinks",
+      "name": "Soft Drinks",
+      "description": "Coca-Cola, Diet Coke, Sprite, Fanta.",
+      "price": 2.95,
+      "images": ["https://images.unsplash.com/photo-1581006852262-e4307cf6283a?w=800"],
+      "available": true,
+      "spiceLevel": 0,
+      "allergens": [],
+      "dietaryTags": ["vegan", "gluten-free"],
+      "courseType": "drinks",
+      "modifiers": [
+        {
+          "id": "drink-choice",
+          "name": "Choose Drink",
+          "required": true,
+          "multiSelect": false,
+          "options": [
+            { "id": "coke", "name": "Coca-Cola", "priceAdjustment": 0, "default": true },
+            { "id": "diet-coke", "name": "Diet Coke", "priceAdjustment": 0 },
+            { "id": "sprite", "name": "Sprite", "priceAdjustment": 0 },
+            { "id": "fanta", "name": "Fanta", "priceAdjustment": 0 }
+          ]
+        }
+      ],
+      "addOns": []
+    }
+  ]
+}

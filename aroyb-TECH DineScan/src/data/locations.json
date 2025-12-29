@@ -1,0 +1,82 @@
+{
+  "locations": [
+    {
+      "id": "manchester",
+      "name": "Aroyb Grill & Curry - Manchester",
+      "shortName": "Manchester",
+      "address": "42 Curry Mile, Rusholme",
+      "city": "Manchester",
+      "postcode": "M14 5AF",
+      "phone": "+44 161 555 0123",
+      "hours": [
+        { "day": "Monday", "open": "12:00", "close": "22:00" },
+        { "day": "Tuesday", "open": "12:00", "close": "22:00" },
+        { "day": "Wednesday", "open": "12:00", "close": "22:00" },
+        { "day": "Thursday", "open": "12:00", "close": "22:30" },
+        { "day": "Friday", "open": "12:00", "close": "23:00" },
+        { "day": "Saturday", "open": "12:00", "close": "23:00" },
+        { "day": "Sunday", "open": "12:00", "close": "21:30" }
+      ],
+      "serviceCharge": {
+        "enabled": true,
+        "type": "percentage",
+        "value": 12.5
+      },
+      "featureToggles": {
+        "payAtTable": true,
+        "callWaiter": true,
+        "requestBill": true,
+        "coursePacing": true
+      },
+      "tables": [
+        { "id": "t1", "number": 1, "name": "Table 1", "seats": 2 },
+        { "id": "t2", "number": 2, "name": "Table 2", "seats": 2 },
+        { "id": "t3", "number": 3, "name": "Table 3", "seats": 4 },
+        { "id": "t4", "number": 4, "name": "Table 4", "seats": 4 },
+        { "id": "t5", "number": 5, "name": "Table 5", "seats": 6 },
+        { "id": "t6", "number": 6, "name": "Table 6", "seats": 6 },
+        { "id": "t7", "number": 7, "name": "Table 7", "seats": 8 },
+        { "id": "t8", "number": 8, "name": "Window Booth", "seats": 4 }
+      ]
+    },
+    {
+      "id": "birmingham",
+      "name": "Aroyb Grill & Curry - Birmingham",
+      "shortName": "Birmingham",
+      "address": "128 Ladypool Road, Sparkbrook",
+      "city": "Birmingham",
+      "postcode": "B12 8JT",
+      "phone": "+44 121 555 0456",
+      "hours": [
+        { "day": "Monday", "open": "12:00", "close": "22:00" },
+        { "day": "Tuesday", "open": "12:00", "close": "22:00" },
+        { "day": "Wednesday", "open": "12:00", "close": "22:00" },
+        { "day": "Thursday", "open": "12:00", "close": "22:30" },
+        { "day": "Friday", "open": "12:00", "close": "23:00" },
+        { "day": "Saturday", "open": "12:00", "close": "23:00" },
+        { "day": "Sunday", "open": "12:00", "close": "21:30" }
+      ],
+      "serviceCharge": {
+        "enabled": true,
+        "type": "percentage",
+        "value": 10
+      },
+      "featureToggles": {
+        "payAtTable": true,
+        "callWaiter": true,
+        "requestBill": true,
+        "coursePacing": false
+      },
+      "tables": [
+        { "id": "t1", "number": 1, "name": "Table 1", "seats": 2 },
+        { "id": "t2", "number": 2, "name": "Table 2", "seats": 2 },
+        { "id": "t3", "number": 3, "name": "Table 3", "seats": 4 },
+        { "id": "t4", "number": 4, "name": "Table 4", "seats": 4 },
+        { "id": "t5", "number": 5, "name": "Table 5", "seats": 6 },
+        { "id": "t6", "number": 6, "name": "Table 6", "seats": 6 },
+        { "id": "t7", "number": 7, "name": "Private Booth", "seats": 8 },
+        { "id": "t8", "number": 8, "name": "Terrace", "seats": 10 }
+      ]
+    }
+  ]
+}
