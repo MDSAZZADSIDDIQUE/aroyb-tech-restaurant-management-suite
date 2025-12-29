@@ -1,0 +1,112 @@
+{
+  "offers": [
+    {
+      "id": "offer_1",
+      "title": "Welcome Back!",
+      "description": "We've missed you! Enjoy 20% off your next order",
+      "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400",
+      "code": "WELCOMEBACK20",
+      "discountPercentage": 20,
+      "discountAmount": 0,
+      "minimumOrder": 15.00,
+      "validFrom": "2024-01-01T00:00:00Z",
+      "validUntil": "2025-12-31T23:59:59Z",
+      "isActive": true,
+      "targeting": {
+        "forLapsedUsers": true,
+        "lapsedDaysThreshold": 7,
+        "forAll": false
+      },
+      "targetingReason": "Because you haven't ordered in 7+ days"
+    },
+    {
+      "id": "offer_2",
+      "title": "VIP Bundle Deal",
+      "description": "Exclusive for our top customers - Get a free dessert with orders over £30",
+      "imageUrl": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400",
+      "code": "VIPBUNDLE",
+      "discountPercentage": 0,
+      "discountAmount": 5.95,
+      "minimumOrder": 30.00,
+      "validFrom": "2024-01-01T00:00:00Z",
+      "validUntil": "2025-12-31T23:59:59Z",
+      "isActive": true,
+      "targeting": {
+        "forHighSpenders": true,
+        "highSpenderThreshold": 100,
+        "forAll": false
+      },
+      "targetingReason": "Because you're one of our top customers"
+    },
+    {
+      "id": "offer_3",
+      "title": "Veggie Delight",
+      "description": "15% off all vegetarian dishes",
+      "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400",
+      "code": "VEGGIE15",
+      "discountPercentage": 15,
+      "discountAmount": 0,
+      "minimumOrder": 10.00,
+      "validFrom": "2024-01-01T00:00:00Z",
+      "validUntil": "2025-12-31T23:59:59Z",
+      "isActive": true,
+      "targeting": {
+        "forVegetarians": true,
+        "forAll": false
+      },
+      "targetingReason": "Because you love our vegetarian options"
+    },
+    {
+      "id": "offer_4",
+      "title": "First Order Special",
+      "description": "Get £5 off your first order with us!",
+      "imageUrl": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=400",
+      "code": "FIRSTORDER5",
+      "discountPercentage": 0,
+      "discountAmount": 5.00,
+      "minimumOrder": 12.00,
+      "validFrom": "2024-01-01T00:00:00Z",
+      "validUntil": "2025-12-31T23:59:59Z",
+      "isActive": true,
+      "targeting": {
+        "forNewUsers": true,
+        "forAll": false
+      },
+      "targetingReason": "Special offer for new customers"
+    },
+    {
+      "id": "offer_5",
+      "title": "Free Delivery Friday",
+      "description": "Free delivery on all orders over £15 this Friday!",
+      "imageUrl": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400",
+      "code": "FREEDELIVERY",
+      "discountPercentage": 0,
+      "discountAmount": 2.99,
+      "minimumOrder": 15.00,
+      "validFrom": "2024-01-01T00:00:00Z",
+      "validUntil": "2025-12-31T23:59:59Z",
+      "isActive": true,
+      "targeting": {
+        "forAll": true
+      },
+      "targetingReason": "Available to everyone"
+    },
+    {
+      "id": "offer_6",
+      "title": "Family Feast",
+      "description": "£10 off orders over £40 - Perfect for the whole family",
+      "imageUrl": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400",
+      "code": "FAMILY10",
+      "discountPercentage": 0,
+      "discountAmount": 10.00,
+      "minimumOrder": 40.00,
+      "validFrom": "2024-01-01T00:00:00Z",
+      "validUntil": "2025-12-31T23:59:59Z",
+      "isActive": true,
+      "targeting": {
+        "forAll": true
+      },
+      "targetingReason": "Great for group orders"
+    }
+  ]
+}

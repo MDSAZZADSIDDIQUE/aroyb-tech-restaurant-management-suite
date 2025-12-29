@@ -1,0 +1,59 @@
+{
+  "rewards": [
+    {
+      "id": "reward_1",
+      "title": "Free Drink",
+      "description": "Redeem for any soft drink or lassi",
+      "imageUrl": "https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=400",
+      "pointsCost": 50,
+      "stampsCost": 0,
+      "rewardType": "free_item",
+      "freeItemId": "item_20",
+      "freeItemName": "Mango Lassi",
+      "isAvailable": true
+    },
+    {
+      "id": "reward_2",
+      "title": "Free Starter",
+      "description": "Choose any starter from our menu",
+      "imageUrl": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400",
+      "pointsCost": 100,
+      "stampsCost": 0,
+      "rewardType": "free_item",
+      "freeItemName": "Any Starter",
+      "isAvailable": true
+    },
+    {
+      "id": "reward_3",
+      "title": "£5 Off",
+      "description": "Get £5 off your next order",
+      "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400",
+      "pointsCost": 150,
+      "stampsCost": 0,
+      "rewardType": "discount",
+      "discountAmount": 5.00,
+      "isAvailable": true
+    },
+    {
+      "id": "reward_4",
+      "title": "Free Delivery",
+      "description": "Enjoy free delivery on your next order",
+      "imageUrl": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400",
+      "pointsCost": 75,
+      "stampsCost": 0,
+      "rewardType": "free_delivery",
+      "isAvailable": true
+    },
+    {
+      "id": "reward_5",
+      "title": "Free Main Course",
+      "description": "10 stamps = 1 free main course (up to £15)",
+      "imageUrl": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400",
+      "pointsCost": 0,
+      "stampsCost": 10,
+      "rewardType": "discount",
+      "discountAmount": 15.00,
+      "isAvailable": true
+    }
+  ]
+}

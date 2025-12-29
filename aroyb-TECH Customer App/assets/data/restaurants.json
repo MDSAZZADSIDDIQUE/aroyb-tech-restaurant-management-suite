@@ -1,0 +1,62 @@
+{
+  "restaurants": [
+    {
+      "id": "aroyb_central",
+      "name": "Aroyb Grill & Curry - Central",
+      "description": "Authentic Indian & British fusion cuisine in the heart of London. Fresh ingredients, bold flavours, and a warm welcome await you.",
+      "imageUrl": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800",
+      "address": "123 High Street, London W1D 4RY",
+      "phone": "+44 20 7123 4567",
+      "email": "central@aroybgrill.co.uk",
+      "latitude": 51.5074,
+      "longitude": -0.1278,
+      "cuisineTypes": ["Indian", "British", "Grill", "Curry"],
+      "deliveryFee": 2.99,
+      "minimumOrder": 12.00,
+      "serviceCharge": 0.50,
+      "estimatedDeliveryMinutes": 35,
+      "estimatedCollectionMinutes": 15,
+      "rating": 4.7,
+      "reviewCount": 1247,
+      "isOpen": true,
+      "openingHours": [
+        {"dayOfWeek": 1, "openTime": "11:00", "closeTime": "23:00", "isClosed": false},
+        {"dayOfWeek": 2, "openTime": "11:00", "closeTime": "23:00", "isClosed": false},
+        {"dayOfWeek": 3, "openTime": "11:00", "closeTime": "23:00", "isClosed": false},
+        {"dayOfWeek": 4, "openTime": "11:00", "closeTime": "23:00", "isClosed": false},
+        {"dayOfWeek": 5, "openTime": "11:00", "closeTime": "00:00", "isClosed": false},
+        {"dayOfWeek": 6, "openTime": "12:00", "closeTime": "00:00", "isClosed": false},
+        {"dayOfWeek": 7, "openTime": "12:00", "closeTime": "22:00", "isClosed": false}
+      ]
+    },
+    {
+      "id": "aroyb_east",
+      "name": "Aroyb Grill & Curry - East",
+      "description": "Our East London location brings the same great taste with a modern twist. Perfect for quick lunches and relaxed dinners.",
+      "imageUrl": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800",
+      "address": "456 Commercial Road, London E1 2PS",
+      "phone": "+44 20 7987 6543",
+      "email": "east@aroybgrill.co.uk",
+      "latitude": 51.5150,
+      "longitude": -0.0550,
+      "cuisineTypes": ["Indian", "British", "Grill", "Curry"],
+      "deliveryFee": 1.99,
+      "minimumOrder": 10.00,
+      "serviceCharge": 0,
+      "estimatedDeliveryMinutes": 30,
+      "estimatedCollectionMinutes": 12,
+      "rating": 4.5,
+      "reviewCount": 892,
+      "isOpen": true,
+      "openingHours": [
+        {"dayOfWeek": 1, "openTime": "11:30", "closeTime": "22:30", "isClosed": false},
+        {"dayOfWeek": 2, "openTime": "11:30", "closeTime": "22:30", "isClosed": false},
+        {"dayOfWeek": 3, "openTime": "11:30", "closeTime": "22:30", "isClosed": false},
+        {"dayOfWeek": 4, "openTime": "11:30", "closeTime": "22:30", "isClosed": false},
+        {"dayOfWeek": 5, "openTime": "11:30", "closeTime": "23:30", "isClosed": false},
+        {"dayOfWeek": 6, "openTime": "12:00", "closeTime": "23:30", "isClosed": false},
+        {"dayOfWeek": 7, "openTime": "12:00", "closeTime": "21:30", "isClosed": false}
+      ]
+    }
+  ]
+}

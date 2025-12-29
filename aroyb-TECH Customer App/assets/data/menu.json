@@ -1,0 +1,629 @@
+{
+  "categories": [
+    {"id": "starters", "name": "Starters", "description": "Begin your meal with our delicious appetizers", "sortOrder": 1},
+    {"id": "mains", "name": "Main Courses", "description": "Hearty dishes to satisfy your appetite", "sortOrder": 2},
+    {"id": "curries", "name": "Signature Curries", "description": "Our famous curry creations", "sortOrder": 3},
+    {"id": "grills", "name": "From the Grill", "description": "Flame-grilled perfection", "sortOrder": 4},
+    {"id": "sides", "name": "Sides", "description": "Perfect accompaniments", "sortOrder": 5},
+    {"id": "desserts", "name": "Desserts", "description": "Sweet endings", "sortOrder": 6},
+    {"id": "drinks", "name": "Drinks", "description": "Refreshing beverages", "sortOrder": 7}
+  ],
+  "items": [
+    {
+      "id": "item_1",
+      "name": "Onion Bhaji",
+      "description": "Crispy golden onion fritters with a blend of spices, served with mint chutney",
+      "imageUrl": "https://images.unsplash.com/photo-1601050690117-94f5f7fa8bd7?w=400",
+      "price": 4.95,
+      "categoryId": "starters",
+      "categoryName": "Starters",
+      "dietaryTags": ["vegetarian", "vegan"],
+      "allergens": ["gluten"],
+      "spiceLevel": 1,
+      "isPopular": true,
+      "isNew": false,
+      "calories": 180,
+      "preparationTime": 10,
+      "modifierGroups": []
+    },
+    {
+      "id": "item_2",
+      "name": "Chicken Tikka Starter",
+      "description": "Tender chicken pieces marinated in yoghurt and spices, cooked in tandoor",
+      "imageUrl": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400",
+      "price": 6.95,
+      "categoryId": "starters",
+      "categoryName": "Starters",
+      "dietaryTags": ["halal"],
+      "allergens": ["dairy"],
+      "spiceLevel": 2,
+      "isPopular": true,
+      "isNew": false,
+      "calories": 220,
+      "preparationTime": 12,
+      "modifierGroups": [
+        {
+          "id": "spice_level",
+          "name": "Spice Level",
+          "isRequired": false,
+          "minSelections": 0,
+          "maxSelections": 1,
+          "modifiers": [
+            {"id": "mild", "name": "Mild", "price": 0, "isDefault": true},
+            {"id": "medium", "name": "Medium", "price": 0},
+            {"id": "hot", "name": "Hot", "price": 0},
+            {"id": "extra_hot", "name": "Extra Hot", "price": 0}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "item_3",
+      "name": "Samosa (2 pcs)",
+      "description": "Crispy pastry filled with spiced potatoes and peas",
+      "imageUrl": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400",
+      "price": 4.50,
+      "categoryId": "starters",
+      "categoryName": "Starters",
+      "dietaryTags": ["vegetarian", "vegan"],
+      "allergens": ["gluten"],
+      "spiceLevel": 1,
+      "isPopular": false,
+      "isNew": false,
+      "calories": 210,
+      "preparationTime": 8,
+      "modifierGroups": []
+    },
+    {
+      "id": "item_4",
+      "name": "Prawn Puri",
+      "description": "Spiced prawns served on crispy puffed bread",
+      "imageUrl": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400",
+      "price": 7.95,
+      "categoryId": "starters",
+      "categoryName": "Starters",
+      "dietaryTags": [],
+      "allergens": ["gluten", "shellfish"],
+      "spiceLevel": 2,
+      "isPopular": false,
+      "isNew": true,
+      "calories": 280,
+      "preparationTime": 12,
+      "modifierGroups": []
+    },
+    {
+      "id": "item_5",
+      "name": "Chicken Tikka Masala",
+      "description": "Britain's favourite curry - tender chicken in a rich, creamy tomato sauce",
+      "imageUrl": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400",
+      "price": 12.95,
+      "categoryId": "curries",
+      "categoryName": "Signature Curries",
+      "dietaryTags": ["halal"],
+      "allergens": ["dairy"],
+      "spiceLevel": 2,
+      "isPopular": true,
+      "isNew": false,
+      "calories": 650,
+      "preparationTime": 18,
+      "modifierGroups": [
+        {
+          "id": "rice_choice",
+          "name": "Choice of Rice",
+          "isRequired": true,
+          "minSelections": 1,
+          "maxSelections": 1,
+          "modifiers": [
+            {"id": "pilau", "name": "Pilau Rice", "price": 0, "isDefault": true},
+            {"id": "basmati", "name": "Plain Basmati", "price": 0},
+            {"id": "no_rice", "name": "No Rice", "price": -2.00}
+          ]
+        },
+        {
+          "id": "spice_level",
+          "name": "Spice Level",
+          "isRequired": false,
+          "minSelections": 0,
+          "maxSelections": 1,
+          "modifiers": [
+            {"id": "mild", "name": "Mild", "price": 0},
+            {"id": "medium", "name": "Medium", "price": 0, "isDefault": true},
+            {"id": "hot", "name": "Hot", "price": 0},
+            {"id": "extra_hot", "name": "Extra Hot", "price": 0}
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Add Extras",
+          "isRequired": false,
+          "minSelections": 0,
+          "maxSelections": 3,
+          "modifiers": [
+            {"id": "extra_chicken", "name": "Extra Chicken", "price": 2.50},
+            {"id": "naan", "name": "Add Naan Bread", "price": 2.95},
+            {"id": "raita", "name": "Add Raita", "price": 1.50}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "item_6",
+      "name": "Lamb Rogan Josh",
+      "description": "Aromatic lamb curry cooked with tomatoes, onions and Kashmiri spices",
+      "imageUrl": "https://images.unsplash.com/photo-1574653853027-5382a3d23a15?w=400",
+      "price": 14.95,
+      "categoryId": "curries",
+      "categoryName": "Signature Curries",
+      "dietaryTags": ["halal"],
+      "allergens": [],
+      "spiceLevel": 3,
+      "isPopular": true,
+      "isNew": false,
+      "calories": 720,
+      "preparationTime": 20,
+      "modifierGroups": [
+        {
+          "id": "rice_choice",
+          "name": "Choice of Rice",
+          "isRequired": true,
+          "minSelections": 1,
+          "maxSelections": 1,
+          "modifiers": [
+            {"id": "pilau", "name": "Pilau Rice", "price": 0, "isDefault": true},
+            {"id": "basmati", "name": "Plain Basmati", "price": 0},
+            {"id": "no_rice", "name": "No Rice", "price": -2.00}
+          ]
+        },
+        {
+          "id": "spice_level",
+          "name": "Spice Level",
+          "isRequired": false,
+          "minSelections": 0,
+          "maxSelections": 1,
+          "modifiers": [
+            {"id": "mild", "name": "Mild", "price": 0},
+            {"id": "medium", "name": "Medium", "price": 0},
+            {"id": "hot", "name": "Hot", "price": 0, "isDefault": true},
+            {"id": "extra_hot", "name": "Extra Hot", "price": 0}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "item_7",
+      "name": "Vegetable Korma",
+      "description": "Mixed vegetables in a mild, creamy coconut and cashew sauce",
+      "imageUrl": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400",
+      "price": 10.95,
+      "categoryId": "curries",
+      "categoryName": "Signature Curries",
+      "dietaryTags": ["vegetarian"],
+      "allergens": ["dairy", "treeNuts"],
+      "spiceLevel": 1,
+      "isPopular": false,
+      "isNew": false,
+      "calories": 480,
+      "preparationTime": 15,
+      "modifierGroups": [
+        {
+          "id": "rice_choice",
+          "name": "Choice of Rice",
+          "isRequired": true,
+          "minSelections": 1,
+          "maxSelections": 1,
+          "modifiers": [
+            {"id": "pilau", "name": "Pilau Rice", "price": 0, "isDefault": true},
+            {"id": "basmati", "name": "Plain Basmati", "price": 0},
+            {"id": "no_rice", "name": "No Rice", "price": -2.00}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "item_8",
+      "name": "Paneer Tikka Masala",
+      "description": "Indian cottage cheese in a rich tomato-based curry sauce",
+      "imageUrl": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=400",
+      "price": 11.95,
+      "categoryId": "curries",
+      "categoryName": "Signature Curries",
+      "dietaryTags": ["vegetarian"],
+      "allergens": ["dairy"],
+      "spiceLevel": 2,
+      "isPopular": true,
+      "isNew": false,
+      "calories": 520,
+      "preparationTime": 16,
+      "modifierGroups": [
+        {
+          "id": "rice_choice",
+          "name": "Choice of Rice",
+          "isRequired": true,
+          "minSelections": 1,
+          "maxSelections": 1,
+          "modifiers": [
+            {"id": "pilau", "name": "Pilau Rice", "price": 0, "isDefault": true},
+            {"id": "basmati", "name": "Plain Basmati", "price": 0},
+            {"id": "no_rice", "name": "No Rice", "price": -2.00}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "item_9",
+      "name": "Tandoori Mixed Grill",
+      "description": "A feast of chicken tikka, lamb chops, seekh kebab and tandoori chicken",
+      "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400",
+      "price": 18.95,
+      "categoryId": "grills",
+      "categoryName": "From the Grill",
+      "dietaryTags": ["halal"],
+      "allergens": ["dairy"],
+      "spiceLevel": 2,
+      "isPopular": true,
+      "isNew": false,
+      "calories": 850,
+      "preparationTime": 25,
+      "modifierGroups": [
+        {
+          "id": "sides",
+          "name": "Choose a Side",
+          "isRequired": true,
+          "minSelections": 1,
+          "maxSelections": 1,
+          "modifiers": [
+            {"id": "salad", "name": "Fresh Salad", "price": 0, "isDefault": true},
+            {"id": "chips", "name": "Chips", "price": 0},
+            {"id": "rice", "name": "Pilau Rice", "price": 1.00}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "item_10",
+      "name": "Lamb Seekh Kebab",
+      "description": "Minced lamb skewers with fresh herbs and spices, cooked in tandoor",
+      "imageUrl": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=400",
+      "price": 13.95,
+      "categoryId": "grills",
+      "categoryName": "From the Grill",
+      "dietaryTags": ["halal"],
+      "allergens": [],
+      "spiceLevel": 2,
+      "isPopular": false,
+      "isNew": false,
+      "calories": 580,
+      "preparationTime": 18,
+      "modifierGroups": []
+    },
+    {
+      "id": "item_11",
+      "name": "Grilled Chicken Burger",
+      "description": "Juicy grilled chicken breast with spiced mayo, lettuce and tomato",
+      "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400",
+      "price": 10.95,
+      "categoryId": "mains",
+      "categoryName": "Main Courses",
+      "dietaryTags": ["halal"],
+      "allergens": ["gluten", "eggs"],
+      "spiceLevel": 1,
+      "isPopular": true,
+      "isNew": false,
+      "calories": 620,
+      "preparationTime": 15,
+      "modifierGroups": [
+        {
+          "id": "burger_extras",
+          "name": "Add Extras",
+          "isRequired": false,
+          "minSelections": 0,
+          "maxSelections": 5,
+          "modifiers": [
+            {"id": "cheese", "name": "Add Cheese", "price": 1.00},
+            {"id": "bacon", "name": "Add Chicken Bacon", "price": 1.50},
+            {"id": "egg", "name": "Add Fried Egg", "price": 1.00},
+            {"id": "jalapenos", "name": "Add Jalapeños", "price": 0.75}
+          ]
+        },
+        {
+          "id": "remove_items",
+          "name": "Remove Items",
+          "isRequired": false,
+          "minSelections": 0,
+          "maxSelections": 3,
+          "modifiers": [
+            {"id": "no_onion", "name": "No Onion", "price": 0},
+            {"id": "no_lettuce", "name": "No Lettuce", "price": 0},
+            {"id": "no_tomato", "name": "No Tomato", "price": 0}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "item_12",
+      "name": "Fish & Chips",
+      "description": "Beer-battered cod with thick-cut chips and mushy peas",
+      "imageUrl": "https://images.unsplash.com/photo-1579208030886-b937da0925dc?w=400",
+      "price": 12.95,
+      "categoryId": "mains",
+      "categoryName": "Main Courses",
+      "dietaryTags": [],
+      "allergens": ["gluten", "fish"],
+      "spiceLevel": 0,
+      "isPopular": true,
+      "isNew": false,
+      "calories": 780,
+      "preparationTime": 18,
+      "modifierGroups": [
+        {
+          "id": "fish_size",
+          "name": "Fish Size",
+          "isRequired": true,
+          "minSelections": 1,
+          "maxSelections": 1,
+          "modifiers": [
+            {"id": "regular", "name": "Regular", "price": 0, "isDefault": true},
+            {"id": "large", "name": "Large (+£3)", "price": 3.00}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "item_13",
+      "name": "Pilau Rice",
+      "description": "Fragrant basmati rice cooked with aromatic spices",
+      "imageUrl": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?w=400",
+      "price": 3.50,
+      "categoryId": "sides",
+      "categoryName": "Sides",
+      "dietaryTags": ["vegetarian", "vegan", "glutenFree"],
+      "allergens": [],
+      "spiceLevel": 0,
+      "isPopular": false,
+      "isNew": false,
+      "calories": 220,
+      "preparationTime": 5,
+      "modifierGroups": []
+    },
+    {
+      "id": "item_14",
+      "name": "Garlic Naan",
+      "description": "Freshly baked naan bread brushed with garlic butter",
+      "imageUrl": "https://images.unsplash.com/photo-1601050690117-94f5f7fa8bd7?w=400",
+      "price": 3.25,
+      "categoryId": "sides",
+      "categoryName": "Sides",
+      "dietaryTags": ["vegetarian"],
+      "allergens": ["gluten", "dairy"],
+      "spiceLevel": 0,
+      "isPopular": true,
+      "isNew": false,
+      "calories": 280,
+      "preparationTime": 8,
+      "modifierGroups": []
+    },
+    {
+      "id": "item_15",
+      "name": "Peshwari Naan",
+      "description": "Sweet naan stuffed with coconut, sultanas and almonds",
+      "imageUrl": "https://images.unsplash.com/photo-1601050690117-94f5f7fa8bd7?w=400",
+      "price": 3.75,
+      "categoryId": "sides",
+      "categoryName": "Sides",
+      "dietaryTags": ["vegetarian"],
+      "allergens": ["gluten", "dairy", "treeNuts"],
+      "spiceLevel": 0,
+      "isPopular": false,
+      "isNew": false,
+      "calories": 350,
+      "preparationTime": 8,
+      "modifierGroups": []
+    },
+    {
+      "id": "item_16",
+      "name": "Chips",
+      "description": "Thick-cut chips, golden and crispy",
+      "imageUrl": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=400",
+      "price": 3.50,
+      "categoryId": "sides",
+      "categoryName": "Sides",
+      "dietaryTags": ["vegetarian", "vegan", "glutenFree"],
+      "allergens": [],
+      "spiceLevel": 0,
+      "isPopular": false,
+      "isNew": false,
+      "calories": 380,
+      "preparationTime": 8,
+      "modifierGroups": []
+    },
+    {
+      "id": "item_17",
+      "name": "Gulab Jamun (3 pcs)",
+      "description": "Warm milk dumplings soaked in rose-scented sugar syrup",
+      "imageUrl": "https://images.unsplash.com/photo-1666190090777-09eb0509d38c?w=400",
+      "price": 4.95,
+      "categoryId": "desserts",
+      "categoryName": "Desserts",
+      "dietaryTags": ["vegetarian"],
+      "allergens": ["dairy", "gluten"],
+      "spiceLevel": 0,
+      "isPopular": true,
+      "isNew": false,
+      "calories": 320,
+      "preparationTime": 5,
+      "modifierGroups": [
+        {
+          "id": "additions",
+          "name": "Add Ice Cream",
+          "isRequired": false,
+          "minSelections": 0,
+          "maxSelections": 1,
+          "modifiers": [
+            {"id": "vanilla", "name": "Vanilla Ice Cream", "price": 1.50},
+            {"id": "kulfi", "name": "Mango Kulfi", "price": 2.00}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "item_18",
+      "name": "Mango Kulfi",
+      "description": "Traditional Indian ice cream with fresh mango",
+      "imageUrl": "https://images.unsplash.com/photo-1488900128323-21503983a07e?w=400",
+      "price": 4.50,
+      "categoryId": "desserts",
+      "categoryName": "Desserts",
+      "dietaryTags": ["vegetarian", "glutenFree"],
+      "allergens": ["dairy"],
+      "spiceLevel": 0,
+      "isPopular": false,
+      "isNew": false,
+      "calories": 180,
+      "preparationTime": 3,
+      "modifierGroups": []
+    },
+    {
+      "id": "item_19",
+      "name": "Chocolate Brownie",
+      "description": "Warm chocolate brownie served with vanilla ice cream",
+      "imageUrl": "https://images.unsplash.com/photo-1564355808539-22fda35bed7e?w=400",
+      "price": 5.95,
+      "categoryId": "desserts",
+      "categoryName": "Desserts",
+      "dietaryTags": ["vegetarian"],
+      "allergens": ["dairy", "gluten", "eggs"],
+      "spiceLevel": 0,
+      "isPopular": true,
+      "isNew": false,
+      "calories": 450,
+      "preparationTime": 5,
+      "modifierGroups": []
+    },
+    {
+      "id": "item_20",
+      "name": "Mango Lassi",
+      "description": "Creamy yoghurt drink blended with sweet mango",
+      "imageUrl": "https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=400",
+      "price": 3.95,
+      "categoryId": "drinks",
+      "categoryName": "Drinks",
+      "dietaryTags": ["vegetarian", "glutenFree"],
+      "allergens": ["dairy"],
+      "spiceLevel": 0,
+      "isPopular": true,
+      "isNew": false,
+      "calories": 180,
+      "preparationTime": 3,
+      "modifierGroups": []
+    },
+    {
+      "id": "item_21",
+      "name": "Masala Chai",
+      "description": "Spiced Indian tea with milk",
+      "imageUrl": "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=400",
+      "price": 2.95,
+      "categoryId": "drinks",
+      "categoryName": "Drinks",
+      "dietaryTags": ["vegetarian", "glutenFree"],
+      "allergens": ["dairy"],
+      "spiceLevel": 0,
+      "isPopular": false,
+      "isNew": false,
+      "calories": 80,
+      "preparationTime": 5,
+      "modifierGroups": []
+    },
+    {
+      "id": "item_22",
+      "name": "Coca-Cola",
+      "description": "330ml can",
+      "imageUrl": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400",
+      "price": 1.95,
+      "categoryId": "drinks",
+      "categoryName": "Drinks",
+      "dietaryTags": ["vegetarian", "vegan", "glutenFree"],
+      "allergens": [],
+      "spiceLevel": 0,
+      "isPopular": false,
+      "isNew": false,
+      "calories": 139,
+      "preparationTime": 1,
+      "modifierGroups": []
+    },
+    {
+      "id": "item_23",
+      "name": "Bottled Water",
+      "description": "500ml still water",
+      "imageUrl": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400",
+      "price": 1.50,
+      "categoryId": "drinks",
+      "categoryName": "Drinks",
+      "dietaryTags": ["vegetarian", "vegan", "glutenFree"],
+      "allergens": [],
+      "spiceLevel": 0,
+      "isPopular": false,
+      "isNew": false,
+      "calories": 0,
+      "preparationTime": 1,
+      "modifierGroups": []
+    },
+    {
+      "id": "item_24",
+      "name": "Chicken Biryani",
+      "description": "Fragrant basmati rice layered with spiced chicken and saffron",
+      "imageUrl": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400",
+      "price": 13.95,
+      "categoryId": "mains",
+      "categoryName": "Main Courses",
+      "dietaryTags": ["halal", "glutenFree"],
+      "allergens": ["dairy"],
+      "spiceLevel": 2,
+      "isPopular": true,
+      "isNew": true,
+      "calories": 720,
+      "preparationTime": 22,
+      "modifierGroups": [
+        {
+          "id": "spice_level",
+          "name": "Spice Level",
+          "isRequired": false,
+          "minSelections": 0,
+          "maxSelections": 1,
+          "modifiers": [
+            {"id": "mild", "name": "Mild", "price": 0},
+            {"id": "medium", "name": "Medium", "price": 0, "isDefault": true},
+            {"id": "hot", "name": "Hot", "price": 0}
+          ]
+        },
+        {
+          "id": "extras",
+          "name": "Add Extras",
+          "isRequired": false,
+          "minSelections": 0,
+          "maxSelections": 2,
+          "modifiers": [
+            {"id": "raita", "name": "Add Raita", "price": 1.50},
+            {"id": "egg", "name": "Add Boiled Egg", "price": 1.00}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "item_25",
+      "name": "Lamb Chops (4 pcs)",
+      "description": "Marinated lamb chops grilled to perfection",
+      "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400",
+      "price": 16.95,
+      "categoryId": "grills",
+      "categoryName": "From the Grill",
+      "dietaryTags": ["halal", "glutenFree"],
+      "allergens": ["dairy"],
+      "spiceLevel": 2,
+      "isPopular": true,
+      "isNew": false,
+      "calories": 680,
+      "preparationTime": 20,
+      "modifierGroups": []
+    }
+  ]
+}

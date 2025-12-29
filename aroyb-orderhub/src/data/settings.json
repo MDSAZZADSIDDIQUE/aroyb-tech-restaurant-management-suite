@@ -1,0 +1,70 @@
+{
+  "restaurantName": "Aroyb Grill & Curry",
+  "locationName": "Camden Town",
+  "timezone": "Europe/London",
+  "currency": "GBP",
+  "openingHours": [
+    {"day": "monday", "open": true, "openTime": "11:30", "closeTime": "22:30"},
+    {"day": "tuesday", "open": true, "openTime": "11:30", "closeTime": "22:30"},
+    {"day": "wednesday", "open": true, "openTime": "11:30", "closeTime": "22:30"},
+    {"day": "thursday", "open": true, "openTime": "11:30", "closeTime": "23:00"},
+    {"day": "friday", "open": true, "openTime": "11:30", "closeTime": "23:30"},
+    {"day": "saturday", "open": true, "openTime": "12:00", "closeTime": "23:30"},
+    {"day": "sunday", "open": true, "openTime": "12:00", "closeTime": "22:00"}
+  ],
+  "holidayOverrides": [
+    {"id": "hol-1", "date": "2024-12-25", "name": "Christmas Day", "closed": true},
+    {"id": "hol-2", "date": "2024-12-26", "name": "Boxing Day", "closed": false, "openTime": "14:00", "closeTime": "22:00"},
+    {"id": "hol-3", "date": "2025-01-01", "name": "New Year's Day", "closed": false, "openTime": "14:00", "closeTime": "22:00"}
+  ],
+  "deliveryZones": [
+    {"id": "zone-a", "name": "Zone A (Local)", "minDistance": 0, "maxDistance": 2, "fee": 2.99, "freeDeliveryThreshold": 25, "minimumOrder": 12, "active": true},
+    {"id": "zone-b", "name": "Zone B (Extended)", "minDistance": 2, "maxDistance": 4, "fee": 3.99, "freeDeliveryThreshold": 35, "minimumOrder": 18, "active": true},
+    {"id": "zone-c", "name": "Zone C (Far)", "minDistance": 4, "maxDistance": 7, "fee": 5.99, "minimumOrder": 30, "active": true}
+  ],
+  "autoAcceptRules": [
+    {
+      "id": "rule-web",
+      "channel": "web",
+      "enabled": true,
+      "conditions": [
+        {"type": "kitchen_load", "operator": "less_than", "value": 70},
+        {"type": "within_hours", "operator": "equals", "value": true}
+      ]
+    },
+    {
+      "id": "rule-app",
+      "channel": "app",
+      "enabled": true,
+      "conditions": [
+        {"type": "kitchen_load", "operator": "less_than", "value": 75},
+        {"type": "within_hours", "operator": "equals", "value": true}
+      ]
+    },
+    {
+      "id": "rule-qr",
+      "channel": "qr",
+      "enabled": true,
+      "conditions": [
+        {"type": "within_hours", "operator": "equals", "value": true}
+      ]
+    },
+    {
+      "id": "rule-marketplace",
+      "channel": "marketplace",
+      "enabled": false,
+      "conditions": []
+    }
+  ],
+  "menuSchedules": [
+    {"id": "sched-lunch", "type": "lunch", "name": "Lunch Menu", "startTime": "11:30", "endTime": "15:00", "days": ["monday", "tuesday", "wednesday", "thursday", "friday"], "active": true, "priceMultiplier": 0.9},
+    {"id": "sched-dinner", "type": "dinner", "name": "Dinner Menu", "startTime": "17:00", "endTime": "22:30", "days": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"], "active": true},
+    {"id": "sched-weekend", "type": "all_day", "name": "Weekend Special", "startTime": "12:00", "endTime": "22:00", "days": ["saturday", "sunday"], "active": true}
+  ],
+  "busyMode": false,
+  "busyModeMultiplier": 1.5,
+  "pausedChannels": [],
+  "pausedCategories": [],
+  "defaultPrepTime": 15,
+  "serviceFeePercent": 0
+}

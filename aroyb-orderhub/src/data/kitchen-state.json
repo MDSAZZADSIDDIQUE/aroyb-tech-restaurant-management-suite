@@ -1,0 +1,15 @@
+{
+  "loadPercent": 58,
+  "backlogCount": 4,
+  "avgTicketMinutes": 14,
+  "stationLoads": {
+    "grill": 65,
+    "fry": 40,
+    "curry": 72,
+    "dessert": 25,
+    "bar": 30,
+    "prep": 45
+  },
+  "activeOrders": 6,
+  "completedToday": 47
+}

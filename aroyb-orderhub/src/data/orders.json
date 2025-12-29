@@ -1,0 +1,655 @@
+[
+  {
+    "id": "order-001",
+    "orderNumber": "ORD-2024-001",
+    "createdAt": "2024-12-29T14:32:00Z",
+    "sourceChannel": "app",
+    "fulfillmentType": "delivery",
+    "customerName": "Sarah Johnson",
+    "customerPhone": "+44 7700 900123",
+    "customerEmail": "sarah.j@email.com",
+    "deliveryAddress": {
+      "line1": "42 Baker Street",
+      "city": "London",
+      "postcode": "NW1 6XE",
+      "instructions": "Ring doorbell twice",
+      "zone": "Zone A",
+      "distance": 1.2
+    },
+    "notes": "Please include extra napkins",
+    "allergenNotes": "NUT ALLERGY - No peanuts or tree nuts",
+    "items": [
+      {
+        "id": "item-001",
+        "menuItemId": "menu-curry-01",
+        "name": "Chicken Tikka Masala",
+        "quantity": 2,
+        "price": 12.95,
+        "modifiers": [{"id": "mod-1", "name": "Extra Spicy", "price": 0}],
+        "addOns": [{"id": "add-1", "name": "Extra Rice", "price": 2.50}],
+        "station": "curry"
+      },
+      {
+        "id": "item-002",
+        "menuItemId": "menu-grill-01",
+        "name": "Lamb Seekh Kebab",
+        "quantity": 1,
+        "price": 8.95,
+        "modifiers": [],
+        "addOns": [],
+        "station": "grill"
+      },
+      {
+        "id": "item-003",
+        "menuItemId": "menu-side-01",
+        "name": "Garlic Naan",
+        "quantity": 3,
+        "price": 2.95,
+        "modifiers": [],
+        "addOns": [],
+        "station": "grill"
+      }
+    ],
+    "totals": {
+      "subtotal": 43.70,
+      "deliveryFee": 2.99,
+      "serviceFee": 0.50,
+      "tip": 5.00,
+      "discount": 0,
+      "total": 52.19
+    },
+    "status": "pending",
+    "paymentStatus": "paid",
+    "paymentAttempts": 1,
+    "statusTimeline": [
+      {"status": "pending", "timestamp": "2024-12-29T14:32:00Z"}
+    ],
+    "riskScore": 15,
+    "riskLevel": "low",
+    "riskReasons": []
+  },
+  {
+    "id": "order-002",
+    "orderNumber": "ORD-2024-002",
+    "createdAt": "2024-12-29T14:28:00Z",
+    "sourceChannel": "web",
+    "fulfillmentType": "collection",
+    "customerName": "Mohammed Ali",
+    "customerPhone": "+44 7700 900456",
+    "notes": "Picking up in 20 mins",
+    "items": [
+      {
+        "id": "item-004",
+        "menuItemId": "menu-curry-02",
+        "name": "Lamb Rogan Josh",
+        "quantity": 1,
+        "price": 14.95,
+        "modifiers": [{"id": "mod-2", "name": "Medium Spice", "price": 0}],
+        "addOns": [],
+        "station": "curry"
+      },
+      {
+        "id": "item-005",
+        "menuItemId": "menu-side-02",
+        "name": "Pilau Rice",
+        "quantity": 2,
+        "price": 3.50,
+        "modifiers": [],
+        "addOns": [],
+        "station": "prep"
+      }
+    ],
+    "totals": {
+      "subtotal": 21.95,
+      "deliveryFee": 0,
+      "serviceFee": 0.50,
+      "tip": 0,
+      "discount": 0,
+      "total": 22.45
+    },
+    "status": "accepted",
+    "paymentStatus": "paid",
+    "paymentAttempts": 1,
+    "statusTimeline": [
+      {"status": "pending", "timestamp": "2024-12-29T14:28:00Z"},
+      {"status": "accepted", "timestamp": "2024-12-29T14:29:00Z", "performedBy": "Manager"}
+    ],
+    "prepTime": 15,
+    "predictedPrepTime": 12,
+    "prepTimeExplanation": "Standard lunch order, kitchen at 45% load",
+    "promisedTime": "2024-12-29T14:44:00Z"
+  },
+  {
+    "id": "order-003",
+    "orderNumber": "ORD-2024-003",
+    "createdAt": "2024-12-29T14:25:00Z",
+    "sourceChannel": "qr",
+    "fulfillmentType": "dine-in",
+    "tableNumber": "12",
+    "customerName": "Table 12",
+    "allergenNotes": "GLUTEN FREE required for all items",
+    "items": [
+      {
+        "id": "item-006",
+        "menuItemId": "menu-starter-01",
+        "name": "Onion Bhaji (GF)",
+        "quantity": 2,
+        "price": 4.95,
+        "modifiers": [],
+        "addOns": [],
+        "station": "fry"
+      },
+      {
+        "id": "item-007",
+        "menuItemId": "menu-curry-03",
+        "name": "Prawn Balti",
+        "quantity": 2,
+        "price": 15.95,
+        "modifiers": [{"id": "mod-3", "name": "Gluten Free", "price": 0}],
+        "addOns": [],
+        "station": "curry"
+      }
+    ],
+    "totals": {
+      "subtotal": 41.80,
+      "deliveryFee": 0,
+      "serviceFee": 0.50,
+      "tip": 8.00,
+      "discount": 0,
+      "total": 50.30
+    },
+    "status": "preparing",
+    "paymentStatus": "paid",
+    "paymentAttempts": 1,
+    "statusTimeline": [
+      {"status": "pending", "timestamp": "2024-12-29T14:25:00Z"},
+      {"status": "accepted", "timestamp": "2024-12-29T14:26:00Z"},
+      {"status": "preparing", "timestamp": "2024-12-29T14:27:00Z"}
+    ],
+    "prepTime": 20,
+    "predictedPrepTime": 18
+  },
+  {
+    "id": "order-004",
+    "orderNumber": "ORD-2024-004",
+    "createdAt": "2024-12-29T14:20:00Z",
+    "sourceChannel": "app",
+    "fulfillmentType": "delivery",
+    "customerName": "Emma Wilson",
+    "customerPhone": "+44 7700 900789",
+    "deliveryAddress": {
+      "line1": "15 Oxford Street",
+      "line2": "Flat 3B",
+      "city": "London",
+      "postcode": "W1D 2LG",
+      "instructions": "Gate code: 4521",
+      "zone": "Zone B",
+      "distance": 3.5
+    },
+    "notes": "Birthday celebration - can you write Happy Birthday on the box?",
+    "items": [
+      {
+        "id": "item-008",
+        "menuItemId": "menu-special-01",
+        "name": "Tandoori Mixed Grill",
+        "quantity": 2,
+        "price": 24.95,
+        "modifiers": [],
+        "addOns": [{"id": "add-2", "name": "Mint Raita", "price": 1.50}],
+        "station": "grill"
+      },
+      {
+        "id": "item-009",
+        "menuItemId": "menu-dessert-01",
+        "name": "Gulab Jamun",
+        "quantity": 2,
+        "price": 5.95,
+        "modifiers": [],
+        "addOns": [],
+        "station": "dessert"
+      },
+      {
+        "id": "item-010",
+        "menuItemId": "menu-drink-01",
+        "name": "Mango Lassi",
+        "quantity": 2,
+        "price": 4.50,
+        "modifiers": [],
+        "addOns": [],
+        "station": "bar"
+      }
+    ],
+    "totals": {
+      "subtotal": 72.30,
+      "deliveryFee": 3.99,
+      "serviceFee": 0.50,
+      "tip": 10.00,
+      "discount": 5.00,
+      "total": 81.79
+    },
+    "status": "preparing",
+    "paymentStatus": "paid",
+    "paymentAttempts": 1,
+    "statusTimeline": [
+      {"status": "pending", "timestamp": "2024-12-29T14:20:00Z"},
+      {"status": "accepted", "timestamp": "2024-12-29T14:21:00Z"},
+      {"status": "preparing", "timestamp": "2024-12-29T14:23:00Z"}
+    ],
+    "prepTime": 25,
+    "predictedPrepTime": 28,
+    "prepTimeExplanation": "Complex order with grill items + dessert, multiple stations"
+  },
+  {
+    "id": "order-005",
+    "orderNumber": "ORD-2024-005",
+    "createdAt": "2024-12-29T14:35:00Z",
+    "sourceChannel": "web",
+    "fulfillmentType": "delivery",
+    "customerName": "Unknown Customer",
+    "customerPhone": "+44 7700 000000",
+    "deliveryAddress": {
+      "line1": "999 Far Away Lane",
+      "city": "London",
+      "postcode": "E20 1EJ",
+      "zone": "Zone C",
+      "distance": 6.8
+    },
+    "items": [
+      {
+        "id": "item-011",
+        "menuItemId": "menu-special-02",
+        "name": "Royal Feast for 6",
+        "quantity": 3,
+        "price": 89.95,
+        "modifiers": [],
+        "addOns": [],
+        "station": "curry"
+      }
+    ],
+    "totals": {
+      "subtotal": 269.85,
+      "deliveryFee": 5.99,
+      "serviceFee": 0.50,
+      "tip": 0,
+      "discount": 0,
+      "total": 276.34
+    },
+    "status": "pending",
+    "paymentStatus": "paid",
+    "paymentAttempts": 3,
+    "statusTimeline": [
+      {"status": "pending", "timestamp": "2024-12-29T14:35:00Z"}
+    ],
+    "riskScore": 85,
+    "riskLevel": "high",
+    "riskReasons": [
+      "Very high order value (£276.34)",
+      "Far delivery zone (6.8 miles)",
+      "No prior order history",
+      "Multiple payment attempts (3)"
+    ]
+  },
+  {
+    "id": "order-006",
+    "orderNumber": "ORD-2024-006",
+    "createdAt": "2024-12-29T14:10:00Z",
+    "sourceChannel": "app",
+    "fulfillmentType": "delivery",
+    "scheduledFor": "2024-12-29T18:00:00Z",
+    "customerName": "David Chen",
+    "customerPhone": "+44 7700 901234",
+    "deliveryAddress": {
+      "line1": "8 Victoria Road",
+      "city": "London",
+      "postcode": "SW1A 1AA",
+      "zone": "Zone A",
+      "distance": 1.8
+    },
+    "notes": "Scheduled for 6pm dinner",
+    "items": [
+      {
+        "id": "item-012",
+        "menuItemId": "menu-curry-04",
+        "name": "Butter Chicken",
+        "quantity": 2,
+        "price": 13.95,
+        "modifiers": [{"id": "mod-4", "name": "Mild", "price": 0}],
+        "addOns": [],
+        "station": "curry"
+      },
+      {
+        "id": "item-013",
+        "menuItemId": "menu-side-03",
+        "name": "Peshwari Naan",
+        "quantity": 2,
+        "price": 3.50,
+        "modifiers": [],
+        "addOns": [],
+        "station": "grill"
+      }
+    ],
+    "totals": {
+      "subtotal": 34.90,
+      "deliveryFee": 2.99,
+      "serviceFee": 0.50,
+      "tip": 3.00,
+      "discount": 0,
+      "total": 41.39
+    },
+    "status": "accepted",
+    "paymentStatus": "paid",
+    "paymentAttempts": 1,
+    "statusTimeline": [
+      {"status": "pending", "timestamp": "2024-12-29T14:10:00Z"},
+      {"status": "accepted", "timestamp": "2024-12-29T14:11:00Z", "note": "Auto-accepted: scheduled order within hours"}
+    ]
+  },
+  {
+    "id": "order-007",
+    "orderNumber": "ORD-2024-007",
+    "createdAt": "2024-12-29T13:45:00Z",
+    "sourceChannel": "qr",
+    "fulfillmentType": "dine-in",
+    "tableNumber": "5",
+    "customerName": "Table 5",
+    "items": [
+      {
+        "id": "item-014",
+        "menuItemId": "menu-starter-02",
+        "name": "Samosa Chaat",
+        "quantity": 1,
+        "price": 6.95,
+        "modifiers": [],
+        "addOns": [],
+        "station": "fry"
+      }
+    ],
+    "totals": {
+      "subtotal": 6.95,
+      "deliveryFee": 0,
+      "serviceFee": 0.50,
+      "tip": 2.00,
+      "discount": 0,
+      "total": 9.45
+    },
+    "status": "ready",
+    "paymentStatus": "paid",
+    "paymentAttempts": 1,
+    "statusTimeline": [
+      {"status": "pending", "timestamp": "2024-12-29T13:45:00Z"},
+      {"status": "accepted", "timestamp": "2024-12-29T13:45:30Z"},
+      {"status": "preparing", "timestamp": "2024-12-29T13:46:00Z"},
+      {"status": "ready", "timestamp": "2024-12-29T13:52:00Z"}
+    ],
+    "prepTime": 6
+  },
+  {
+    "id": "order-008",
+    "orderNumber": "ORD-2024-008",
+    "createdAt": "2024-12-29T13:30:00Z",
+    "sourceChannel": "web",
+    "fulfillmentType": "collection",
+    "customerName": "Patricia Brown",
+    "customerPhone": "+44 7700 905678",
+    "items": [
+      {
+        "id": "item-015",
+        "menuItemId": "menu-curry-05",
+        "name": "Vegetable Korma",
+        "quantity": 1,
+        "price": 10.95,
+        "modifiers": [{"id": "mod-5", "name": "Vegan", "price": 0}],
+        "addOns": [],
+        "station": "curry"
+      },
+      {
+        "id": "item-016",
+        "menuItemId": "menu-side-04",
+        "name": "Steamed Rice",
+        "quantity": 1,
+        "price": 2.95,
+        "modifiers": [],
+        "addOns": [],
+        "station": "prep"
+      }
+    ],
+    "totals": {
+      "subtotal": 13.90,
+      "deliveryFee": 0,
+      "serviceFee": 0.50,
+      "tip": 0,
+      "discount": 0,
+      "total": 14.40
+    },
+    "status": "completed",
+    "paymentStatus": "paid",
+    "paymentAttempts": 1,
+    "statusTimeline": [
+      {"status": "pending", "timestamp": "2024-12-29T13:30:00Z"},
+      {"status": "accepted", "timestamp": "2024-12-29T13:31:00Z"},
+      {"status": "preparing", "timestamp": "2024-12-29T13:32:00Z"},
+      {"status": "ready", "timestamp": "2024-12-29T13:42:00Z"},
+      {"status": "completed", "timestamp": "2024-12-29T13:55:00Z", "note": "Collected by customer"}
+    ],
+    "prepTime": 10
+  },
+  {
+    "id": "order-009",
+    "orderNumber": "ORD-2024-009",
+    "createdAt": "2024-12-29T14:38:00Z",
+    "sourceChannel": "app",
+    "fulfillmentType": "delivery",
+    "customerName": "James Williams",
+    "customerPhone": "+44 7700 909876",
+    "deliveryAddress": {
+      "line1": "27 Camden High Street",
+      "city": "London",
+      "postcode": "NW1 7JE",
+      "zone": "Zone A",
+      "distance": 0.8
+    },
+    "allergenNotes": "DAIRY ALLERGY - No cheese, cream, or butter",
+    "packingNotes": "Separate sauces in containers",
+    "items": [
+      {
+        "id": "item-017",
+        "menuItemId": "menu-curry-06",
+        "name": "Chicken Jalfrezi (DF)",
+        "quantity": 1,
+        "price": 12.95,
+        "modifiers": [{"id": "mod-6", "name": "Dairy Free", "price": 0}, {"id": "mod-7", "name": "Hot", "price": 0}],
+        "addOns": [],
+        "station": "curry"
+      },
+      {
+        "id": "item-018",
+        "menuItemId": "menu-side-01",
+        "name": "Garlic Naan",
+        "quantity": 2,
+        "price": 2.95,
+        "modifiers": [],
+        "addOns": [],
+        "station": "grill",
+        "notes": "No butter on naan"
+      }
+    ],
+    "totals": {
+      "subtotal": 18.85,
+      "deliveryFee": 2.99,
+      "serviceFee": 0.50,
+      "tip": 2.00,
+      "discount": 0,
+      "total": 24.34
+    },
+    "status": "pending",
+    "paymentStatus": "paid",
+    "paymentAttempts": 1,
+    "statusTimeline": [
+      {"status": "pending", "timestamp": "2024-12-29T14:38:00Z"}
+    ]
+  },
+  {
+    "id": "order-010",
+    "orderNumber": "ORD-2024-010",
+    "createdAt": "2024-12-29T12:15:00Z",
+    "sourceChannel": "web",
+    "fulfillmentType": "delivery",
+    "customerName": "Lisa Taylor",
+    "customerPhone": "+44 7700 900111",
+    "deliveryAddress": {
+      "line1": "5 King's Road",
+      "city": "London",
+      "postcode": "SW3 4NX",
+      "zone": "Zone B",
+      "distance": 2.3
+    },
+    "items": [
+      {
+        "id": "item-019",
+        "menuItemId": "menu-curry-01",
+        "name": "Chicken Tikka Masala",
+        "quantity": 1,
+        "price": 12.95,
+        "modifiers": [],
+        "addOns": [],
+        "station": "curry"
+      }
+    ],
+    "totals": {
+      "subtotal": 12.95,
+      "deliveryFee": 2.99,
+      "serviceFee": 0.50,
+      "tip": 0,
+      "discount": 0,
+      "total": 16.44
+    },
+    "status": "refunded",
+    "paymentStatus": "refunded",
+    "paymentAttempts": 1,
+    "statusTimeline": [
+      {"status": "pending", "timestamp": "2024-12-29T12:15:00Z"},
+      {"status": "accepted", "timestamp": "2024-12-29T12:16:00Z"},
+      {"status": "preparing", "timestamp": "2024-12-29T12:18:00Z"},
+      {"status": "ready", "timestamp": "2024-12-29T12:30:00Z"},
+      {"status": "out_for_delivery", "timestamp": "2024-12-29T12:35:00Z"},
+      {"status": "refunded", "timestamp": "2024-12-29T13:15:00Z", "note": "Late delivery - full refund issued"}
+    ],
+    "refunds": [
+      {
+        "id": "refund-001",
+        "orderId": "order-010",
+        "type": "full",
+        "amount": 16.44,
+        "reasons": ["late_delivery"],
+        "internalNote": "Delivery driver had accident, order arrived 40 mins late",
+        "customerMessage": "We apologise for the late delivery. A full refund has been processed.",
+        "createdAt": "2024-12-29T13:15:00Z",
+        "approvedBy": "Manager"
+      }
+    ]
+  },
+  {
+    "id": "order-011",
+    "orderNumber": "ORD-2024-011",
+    "createdAt": "2024-12-29T14:40:00Z",
+    "sourceChannel": "marketplace",
+    "fulfillmentType": "delivery",
+    "customerName": "Robert Smith",
+    "customerPhone": "+44 7700 902222",
+    "deliveryAddress": {
+      "line1": "12 Fleet Street",
+      "city": "London",
+      "postcode": "EC4A 2AB",
+      "zone": "Zone B",
+      "distance": 2.8
+    },
+    "items": [
+      {
+        "id": "item-020",
+        "menuItemId": "menu-special-03",
+        "name": "Weekend Curry Bundle",
+        "quantity": 1,
+        "price": 39.95,
+        "modifiers": [],
+        "addOns": [],
+        "station": "curry"
+      }
+    ],
+    "totals": {
+      "subtotal": 39.95,
+      "deliveryFee": 3.99,
+      "serviceFee": 0.50,
+      "tip": 0,
+      "discount": 0,
+      "total": 44.44
+    },
+    "status": "pending",
+    "paymentStatus": "paid",
+    "paymentAttempts": 1,
+    "statusTimeline": [
+      {"status": "pending", "timestamp": "2024-12-29T14:40:00Z"}
+    ],
+    "riskScore": 35,
+    "riskLevel": "medium",
+    "riskReasons": ["First order from marketplace channel"]
+  },
+  {
+    "id": "order-012",
+    "orderNumber": "ORD-2024-012",
+    "createdAt": "2024-12-29T14:15:00Z",
+    "sourceChannel": "app",
+    "fulfillmentType": "collection",
+    "customerName": "Helen Davies",
+    "customerPhone": "+44 7700 903333",
+    "items": [
+      {
+        "id": "item-021",
+        "menuItemId": "menu-starter-03",
+        "name": "Chicken Pakora",
+        "quantity": 2,
+        "price": 5.95,
+        "modifiers": [],
+        "addOns": [],
+        "station": "fry"
+      },
+      {
+        "id": "item-022",
+        "menuItemId": "menu-curry-07",
+        "name": "King Prawn Madras",
+        "quantity": 1,
+        "price": 16.95,
+        "modifiers": [{"id": "mod-8", "name": "Extra Hot", "price": 0}],
+        "addOns": [],
+        "station": "curry"
+      },
+      {
+        "id": "item-023",
+        "menuItemId": "menu-side-05",
+        "name": "Keema Rice",
+        "quantity": 1,
+        "price": 4.95,
+        "modifiers": [],
+        "addOns": [],
+        "station": "prep"
+      }
+    ],
+    "totals": {
+      "subtotal": 33.80,
+      "deliveryFee": 0,
+      "serviceFee": 0.50,
+      "tip": 5.00,
+      "discount": 3.38,
+      "total": 35.92
+    },
+    "status": "ready",
+    "paymentStatus": "paid",
+    "paymentAttempts": 1,
+    "statusTimeline": [
+      {"status": "pending", "timestamp": "2024-12-29T14:15:00Z"},
+      {"status": "accepted", "timestamp": "2024-12-29T14:16:00Z"},
+      {"status": "preparing", "timestamp": "2024-12-29T14:17:00Z"},
+      {"status": "ready", "timestamp": "2024-12-29T14:32:00Z"}
+    ],
+    "prepTime": 15
+  }
+]
