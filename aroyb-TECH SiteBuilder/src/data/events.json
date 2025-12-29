@@ -1,0 +1,70 @@
+{
+  "events": [
+    {
+      "id": "live-qawwali",
+      "title": "Live Qawwali Night",
+      "description": "Experience the soul-stirring sounds of traditional Qawwali music while enjoying our finest dishes.",
+      "longDescription": "Join us for an unforgettable evening of authentic Qawwali music, performed live by the renowned Sufi Ensemble from London. Enjoy a special 4-course tasting menu featuring our chef's signature dishes, paired with traditional chai and desserts. Limited seating available—book early to secure your spot.",
+      "date": "2025-02-14",
+      "time": "19:00",
+      "endTime": "23:00",
+      "location": "Manchester",
+      "capacity": 80,
+      "price": 35,
+      "bookingRequired": true,
+      "tags": ["music", "cultural", "special-menu"]
+    },
+    {
+      "id": "eid-celebration",
+      "title": "Eid ul-Fitr Celebration Feast",
+      "description": "Celebrate Eid with family and friends at Aroyb. Special festive menu with traditional sweets.",
+      "longDescription": "Mark the end of Ramadan with our grand Eid celebration feast! Our chefs have prepared an exclusive menu featuring traditional Eid delicacies including Sheer Khurma, Lamb Korma, and Firni. Bring the whole family for an afternoon of delicious food and celebration. Children under 10 eat free!",
+      "date": "2025-03-30",
+      "time": "12:00",
+      "endTime": "22:00",
+      "location": "All locations",
+      "bookingRequired": false,
+      "tags": ["eid", "family", "festive"]
+    },
+    {
+      "id": "cooking-class",
+      "title": "Master the Curry - Cooking Class",
+      "description": "Learn to cook authentic Indian curries with our head chef. Includes ingredients plus a meal.",
+      "longDescription": "Ever wanted to recreate restaurant-quality curries at home? Join Chef Amir for an interactive 3-hour cooking masterclass where you'll learn to make Chicken Tikka Masala, fresh naan bread, and authentic pilau rice from scratch. Take home recipe cards and a spice kit. Perfect for couples or groups of friends!",
+      "date": "2025-02-22",
+      "time": "14:00",
+      "endTime": "17:00",
+      "location": "Birmingham",
+      "capacity": 16,
+      "price": 65,
+      "bookingRequired": true,
+      "tags": ["cooking", "class", "experience"]
+    },
+    {
+      "id": "valentines",
+      "title": "Valentine's Day Special",
+      "description": "Romantic 4-course meal for two with complimentary champagne and rose petals.",
+      "longDescription": "Make this Valentine's Day unforgettable with our exclusive couples' dining experience. Enjoy a specially curated 4-course menu, including our signature Butter Chicken and Gulab Jamun for Two. Each couple receives a complimentary glass of champagne and a rose. Candlelit tables with rose petals await.",
+      "date": "2025-02-14",
+      "time": "18:00",
+      "endTime": "23:00",
+      "location": "All locations",
+      "price": 89,
+      "bookingRequired": true,
+      "tags": ["romantic", "couples", "special-menu"]
+    },
+    {
+      "id": "catering-showcase",
+      "title": "Wedding & Corporate Catering Showcase",
+      "description": "Free tasting event for those planning weddings, parties, or corporate events.",
+      "longDescription": "Planning a wedding, party, or corporate event? Join us for a free catering showcase where you can sample our most popular dishes and discuss your event requirements with our catering team. Meet our head chef, view presentation options, and receive an exclusive 10% discount on all bookings made on the day.",
+      "date": "2025-03-08",
+      "time": "11:00",
+      "endTime": "15:00",
+      "location": "Manchester",
+      "capacity": 50,
+      "bookingRequired": true,
+      "tags": ["catering", "wedding", "corporate", "free"]
+    }
+  ]
+}

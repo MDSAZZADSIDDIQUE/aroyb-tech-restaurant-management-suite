@@ -1,0 +1,104 @@
+{
+  "locations": [
+    {
+      "id": "manchester",
+      "name": "Aroyb Grill & Curry - Manchester City Centre",
+      "shortName": "Manchester",
+      "address": "145 Curry Mile, Rusholme",
+      "city": "Manchester",
+      "postcode": "M14 5AG",
+      "phone": "+44 161 555 0123",
+      "email": "manchester@aroybgrill.co.uk",
+      "hours": [
+        { "day": "Monday", "open": "12:00", "close": "22:00" },
+        { "day": "Tuesday", "open": "12:00", "close": "22:00" },
+        { "day": "Wednesday", "open": "12:00", "close": "22:00" },
+        { "day": "Thursday", "open": "12:00", "close": "22:30" },
+        { "day": "Friday", "open": "12:00", "close": "23:00" },
+        { "day": "Saturday", "open": "12:00", "close": "23:00" },
+        { "day": "Sunday", "open": "13:00", "close": "21:30" }
+      ],
+      "deliveryZones": [
+        {
+          "id": "m1-m4",
+          "name": "City Centre (M1-M4)",
+          "postcodes": ["M1", "M2", "M3", "M4"],
+          "fee": 1.99,
+          "minOrder": 12,
+          "estimatedTime": "25-35 mins"
+        },
+        {
+          "id": "m14-m15",
+          "name": "Rusholme & Fallowfield (M14-M15)",
+          "postcodes": ["M14", "M15"],
+          "fee": 0,
+          "minOrder": 10,
+          "estimatedTime": "20-30 mins"
+        },
+        {
+          "id": "m16-m21",
+          "name": "South Manchester (M16-M21)",
+          "postcodes": ["M16", "M17", "M18", "M19", "M20", "M21"],
+          "fee": 2.99,
+          "minOrder": 15,
+          "estimatedTime": "35-45 mins"
+        }
+      ],
+      "minOrder": 10,
+      "prepTimeRange": [15, 25],
+      "acceptsDelivery": true,
+      "acceptsCollection": true,
+      "coordinates": { "lat": 53.4481, "lng": -2.2190 }
+    },
+    {
+      "id": "birmingham",
+      "name": "Aroyb Grill & Curry - Birmingham Bullring",
+      "shortName": "Birmingham",
+      "address": "78 Digbeth High Street",
+      "city": "Birmingham",
+      "postcode": "B5 6DY",
+      "phone": "+44 121 555 0456",
+      "email": "birmingham@aroybgrill.co.uk",
+      "hours": [
+        { "day": "Monday", "open": "11:30", "close": "22:00" },
+        { "day": "Tuesday", "open": "11:30", "close": "22:00" },
+        { "day": "Wednesday", "open": "11:30", "close": "22:00" },
+        { "day": "Thursday", "open": "11:30", "close": "22:30" },
+        { "day": "Friday", "open": "11:30", "close": "23:30" },
+        { "day": "Saturday", "open": "11:30", "close": "23:30" },
+        { "day": "Sunday", "open": "12:00", "close": "21:00" }
+      ],
+      "deliveryZones": [
+        {
+          "id": "b1-b5",
+          "name": "City Centre (B1-B5)",
+          "postcodes": ["B1", "B2", "B3", "B4", "B5"],
+          "fee": 1.49,
+          "minOrder": 12,
+          "estimatedTime": "25-35 mins"
+        },
+        {
+          "id": "b6-b12",
+          "name": "Inner Birmingham (B6-B12)",
+          "postcodes": ["B6", "B7", "B8", "B9", "B10", "B11", "B12"],
+          "fee": 2.49,
+          "minOrder": 15,
+          "estimatedTime": "30-40 mins"
+        },
+        {
+          "id": "b13-b20",
+          "name": "Greater Birmingham (B13-B20)",
+          "postcodes": ["B13", "B14", "B15", "B16", "B17", "B18", "B19", "B20"],
+          "fee": 3.49,
+          "minOrder": 18,
+          "estimatedTime": "40-50 mins"
+        }
+      ],
+      "minOrder": 12,
+      "prepTimeRange": [15, 30],
+      "acceptsDelivery": true,
+      "acceptsCollection": true,
+      "coordinates": { "lat": 52.4778, "lng": -1.8953 }
+    }
+  ]
+}

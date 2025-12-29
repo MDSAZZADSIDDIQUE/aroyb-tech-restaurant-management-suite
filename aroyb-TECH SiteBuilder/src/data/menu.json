@@ -1,0 +1,664 @@
+{
+  "categories": [
+    {
+      "id": "starters",
+      "name": "Starters",
+      "description": "Begin your feast with our authentic appetizers",
+      "sortOrder": 1
+    },
+    {
+      "id": "curries",
+      "name": "Signature Curries",
+      "description": "Traditional recipes passed down through generations",
+      "sortOrder": 2
+    },
+    {
+      "id": "grills",
+      "name": "Grill & Tandoori",
+      "description": "Fresh from our charcoal tandoor oven",
+      "sortOrder": 3
+    },
+    {
+      "id": "biryanis",
+      "name": "Biryanis",
+      "description": "Aromatic basmati rice layered with spices",
+      "sortOrder": 4
+    },
+    {
+      "id": "sides",
+      "name": "Sides & Breads",
+      "description": "Perfect accompaniments to your meal",
+      "sortOrder": 5
+    },
+    {
+      "id": "drinks",
+      "name": "Drinks",
+      "description": "Refreshing beverages to complement your meal",
+      "sortOrder": 6
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "description": "Sweet endings to a perfect meal",
+      "sortOrder": 7
+    }
+  ],
+  "items": [
+    {
+      "id": "samosa-veg",
+      "categoryId": "starters",
+      "name": "Vegetable Samosas",
+      "description": "Crispy pastry triangles filled with spiced potatoes and peas. Served with tamarind chutney.",
+      "price": 4.95,
+      "images": ["https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400"],
+      "allergens": ["gluten"],
+      "dietaryTags": ["vegetarian", "vegan"],
+      "spiceLevel": 1,
+      "modifierGroups": [],
+      "addOns": [
+        { "id": "extra-chutney", "name": "Extra Tamarind Chutney", "price": 0.50 },
+        { "id": "mint-chutney", "name": "Mint Chutney", "price": 0.50 }
+      ],
+      "popular": true,
+      "available": true,
+      "calories": 280
+    },
+    {
+      "id": "onion-bhaji",
+      "categoryId": "starters",
+      "name": "Onion Bhajis",
+      "description": "Golden-fried onion fritters with fresh coriander and cumin. A true British-Indian classic.",
+      "price": 4.50,
+      "images": ["https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=400"],
+      "allergens": ["gluten"],
+      "dietaryTags": ["vegetarian", "vegan"],
+      "spiceLevel": 1,
+      "modifierGroups": [],
+      "addOns": [],
+      "popular": true,
+      "available": true,
+      "calories": 320
+    },
+    {
+      "id": "chicken-tikka-starter",
+      "categoryId": "starters",
+      "name": "Chicken Tikka",
+      "description": "Tender chicken pieces marinated in yoghurt and aromatic spices, cooked in our tandoor.",
+      "price": 6.95,
+      "images": ["https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400"],
+      "allergens": ["dairy"],
+      "dietaryTags": ["halal", "gluten-free-option"],
+      "spiceLevel": 2,
+      "modifierGroups": [
+        {
+          "id": "tikka-spice",
+          "name": "Spice Level",
+          "required": false,
+          "maxSelect": 1,
+          "minSelect": 0,
+          "options": [
+            { "id": "mild", "name": "Mild", "priceDelta": 0 },
+            { "id": "medium", "name": "Medium", "priceDelta": 0 },
+            { "id": "hot", "name": "Hot", "priceDelta": 0 }
+          ]
+        }
+      ],
+      "addOns": [
+        { "id": "salad", "name": "Side Salad", "price": 1.50 }
+      ],
+      "popular": true,
+      "available": true,
+      "calories": 350
+    },
+    {
+      "id": "seekh-kebab",
+      "categoryId": "starters",
+      "name": "Seekh Kebab",
+      "description": "Juicy minced lamb skewers with fresh herbs and spices, chargrilled to perfection.",
+      "price": 7.50,
+      "images": ["https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400"],
+      "allergens": [],
+      "dietaryTags": ["halal", "gluten-free-option"],
+      "spiceLevel": 2,
+      "modifierGroups": [],
+      "addOns": [
+        { "id": "naan-piece", "name": "Naan Piece", "price": 1.00 },
+        { "id": "raita", "name": "Raita", "price": 1.00 }
+      ],
+      "available": true,
+      "calories": 420
+    },
+    {
+      "id": "prawn-puri",
+      "categoryId": "starters",
+      "name": "Prawn Puri",
+      "description": "King prawns in a tangy tomato and spice sauce, served on a crispy puri bread.",
+      "price": 8.95,
+      "images": ["https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400"],
+      "allergens": ["gluten", "shellfish"],
+      "dietaryTags": [],
+      "spiceLevel": 2,
+      "modifierGroups": [],
+      "addOns": [],
+      "newItem": true,
+      "available": true,
+      "calories": 380
+    },
+    {
+      "id": "chicken-tikka-masala",
+      "categoryId": "curries",
+      "name": "Chicken Tikka Masala",
+      "description": "Britain's favourite curry! Tender chicken tikka in a rich, creamy tomato sauce with aromatic spices.",
+      "longDescription": "Our signature Chicken Tikka Masala features succulent pieces of tandoor-cooked chicken breast, simmered in a luxuriously creamy tomato-based sauce. Infused with hand-ground garam masala, kashmiri chilli, and finished with fresh cream.",
+      "price": 12.95,
+      "images": ["https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400"],
+      "allergens": ["dairy"],
+      "dietaryTags": ["halal"],
+      "spiceLevel": 2,
+      "modifierGroups": [
+        {
+          "id": "curry-spice",
+          "name": "Spice Level",
+          "required": true,
+          "maxSelect": 1,
+          "minSelect": 1,
+          "options": [
+            { "id": "mild", "name": "Mild", "priceDelta": 0 },
+            { "id": "medium", "name": "Medium (Recommended)", "priceDelta": 0 },
+            { "id": "hot", "name": "Hot", "priceDelta": 0 },
+            { "id": "extra-hot", "name": "Extra Hot 🔥", "priceDelta": 0 }
+          ]
+        }
+      ],
+      "addOns": [
+        { "id": "pilau-rice", "name": "Pilau Rice", "price": 3.50 },
+        { "id": "plain-naan", "name": "Plain Naan", "price": 2.95 },
+        { "id": "garlic-naan", "name": "Garlic Naan", "price": 3.50 }
+      ],
+      "popular": true,
+      "available": true,
+      "calories": 680
+    },
+    {
+      "id": "lamb-rogan-josh",
+      "categoryId": "curries",
+      "name": "Lamb Rogan Josh",
+      "description": "A Kashmiri classic. Tender lamb slow-cooked in a rich tomato and yoghurt sauce with warming spices.",
+      "price": 14.95,
+      "images": ["https://images.unsplash.com/photo-1545247181-516773cae754?w=400"],
+      "allergens": ["dairy"],
+      "dietaryTags": ["halal"],
+      "spiceLevel": 3,
+      "modifierGroups": [
+        {
+          "id": "curry-spice",
+          "name": "Spice Level",
+          "required": true,
+          "maxSelect": 1,
+          "minSelect": 1,
+          "options": [
+            { "id": "mild", "name": "Mild", "priceDelta": 0 },
+            { "id": "medium", "name": "Medium", "priceDelta": 0 },
+            { "id": "hot", "name": "Hot (Traditional)", "priceDelta": 0 },
+            { "id": "extra-hot", "name": "Extra Hot 🔥🔥", "priceDelta": 0 }
+          ]
+        }
+      ],
+      "addOns": [
+        { "id": "pilau-rice", "name": "Pilau Rice", "price": 3.50 },
+        { "id": "plain-naan", "name": "Plain Naan", "price": 2.95 },
+        { "id": "keema-naan", "name": "Keema Naan", "price": 4.25 }
+      ],
+      "popular": true,
+      "available": true,
+      "calories": 720
+    },
+    {
+      "id": "butter-chicken",
+      "categoryId": "curries",
+      "name": "Butter Chicken",
+      "description": "Velvety smooth tomato and butter sauce with tender chicken. Mild, creamy, and absolutely delicious.",
+      "price": 13.50,
+      "images": ["https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=400"],
+      "allergens": ["dairy", "nuts"],
+      "dietaryTags": ["halal", "mild"],
+      "spiceLevel": 1,
+      "modifierGroups": [],
+      "addOns": [
+        { "id": "pilau-rice", "name": "Pilau Rice", "price": 3.50 },
+        { "id": "butter-naan", "name": "Butter Naan", "price": 3.25 }
+      ],
+      "popular": true,
+      "available": true,
+      "calories": 750
+    },
+    {
+      "id": "vegetable-korma",
+      "categoryId": "curries",
+      "name": "Vegetable Korma",
+      "description": "Mixed vegetables in a mild, creamy coconut and almond sauce. Perfect for those who prefer milder spice.",
+      "price": 10.95,
+      "images": ["https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=400"],
+      "allergens": ["dairy", "nuts"],
+      "dietaryTags": ["vegetarian", "mild"],
+      "spiceLevel": 0,
+      "modifierGroups": [],
+      "addOns": [
+        { "id": "pilau-rice", "name": "Pilau Rice", "price": 3.50 },
+        { "id": "plain-naan", "name": "Plain Naan", "price": 2.95 }
+      ],
+      "available": true,
+      "calories": 580
+    },
+    {
+      "id": "chana-masala",
+      "categoryId": "curries",
+      "name": "Chana Masala",
+      "description": "Hearty chickpeas cooked with tomatoes, onions, and aromatic spices. A vegan favourite.",
+      "price": 9.95,
+      "images": ["https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400"],
+      "allergens": [],
+      "dietaryTags": ["vegetarian", "vegan", "gluten-free-option"],
+      "spiceLevel": 2,
+      "modifierGroups": [
+        {
+          "id": "curry-spice",
+          "name": "Spice Level",
+          "required": false,
+          "maxSelect": 1,
+          "minSelect": 0,
+          "options": [
+            { "id": "mild", "name": "Mild", "priceDelta": 0 },
+            { "id": "medium", "name": "Medium", "priceDelta": 0 },
+            { "id": "hot", "name": "Hot", "priceDelta": 0 }
+          ]
+        }
+      ],
+      "addOns": [
+        { "id": "pilau-rice", "name": "Pilau Rice", "price": 3.50 },
+        { "id": "roti", "name": "Tandoori Roti", "price": 2.50 }
+      ],
+      "popular": true,
+      "available": true,
+      "calories": 420
+    },
+    {
+      "id": "prawn-jalfrezi",
+      "categoryId": "curries",
+      "name": "King Prawn Jalfrezi",
+      "description": "Fresh king prawns stir-fried with peppers, onions, and green chillies in a fiery sauce.",
+      "price": 16.95,
+      "images": ["https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400"],
+      "allergens": ["shellfish"],
+      "dietaryTags": ["spicy"],
+      "spiceLevel": 4,
+      "modifierGroups": [],
+      "addOns": [
+        { "id": "pilau-rice", "name": "Pilau Rice", "price": 3.50 },
+        { "id": "garlic-naan", "name": "Garlic Naan", "price": 3.50 }
+      ],
+      "newItem": true,
+      "available": true,
+      "calories": 520
+    },
+    {
+      "id": "lamb-vindaloo",
+      "categoryId": "curries",
+      "name": "Lamb Vindaloo",
+      "description": "A Goan classic. Tender lamb in an intensely spiced, tangy sauce with potatoes. For heat lovers!",
+      "price": 14.95,
+      "images": ["https://images.unsplash.com/photo-1574653853027-5382a3d23a15?w=400"],
+      "allergens": [],
+      "dietaryTags": ["halal", "spicy", "gluten-free-option"],
+      "spiceLevel": 5,
+      "modifierGroups": [],
+      "addOns": [
+        { "id": "pilau-rice", "name": "Pilau Rice", "price": 3.50 },
+        { "id": "plain-naan", "name": "Plain Naan", "price": 2.95 }
+      ],
+      "available": true,
+      "calories": 690
+    },
+    {
+      "id": "mixed-grill",
+      "categoryId": "grills",
+      "name": "Mixed Grill Platter",
+      "description": "A feast of tandoori chicken, seekh kebab, lamb chops, and chicken tikka. Served with salad and mint chutney.",
+      "price": 18.95,
+      "images": ["https://images.unsplash.com/photo-1544025162-d76694265947?w=400"],
+      "allergens": ["dairy"],
+      "dietaryTags": ["halal", "gluten-free-option"],
+      "spiceLevel": 2,
+      "modifierGroups": [],
+      "addOns": [
+        { "id": "pilau-rice", "name": "Pilau Rice", "price": 3.50 },
+        { "id": "plain-naan", "name": "Plain Naan", "price": 2.95 },
+        { "id": "raita", "name": "Raita", "price": 1.50 }
+      ],
+      "popular": true,
+      "available": true,
+      "calories": 980
+    },
+    {
+      "id": "tandoori-chicken",
+      "categoryId": "grills",
+      "name": "Tandoori Chicken",
+      "description": "Half chicken marinated in yoghurt and spices, roasted in our clay tandoor until perfectly charred.",
+      "price": 12.95,
+      "images": ["https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400"],
+      "allergens": ["dairy"],
+      "dietaryTags": ["halal", "gluten-free-option"],
+      "spiceLevel": 2,
+      "modifierGroups": [],
+      "addOns": [
+        { "id": "pilau-rice", "name": "Pilau Rice", "price": 3.50 },
+        { "id": "plain-naan", "name": "Plain Naan", "price": 2.95 }
+      ],
+      "popular": true,
+      "available": true,
+      "calories": 650
+    },
+    {
+      "id": "lamb-chops",
+      "categoryId": "grills",
+      "name": "Tandoori Lamb Chops",
+      "description": "Premium lamb chops marinated overnight and grilled to perfection. Tender and flavourful.",
+      "price": 16.95,
+      "images": ["https://images.unsplash.com/photo-1544025162-d76694265947?w=400"],
+      "allergens": ["dairy"],
+      "dietaryTags": ["halal", "gluten-free-option"],
+      "spiceLevel": 2,
+      "modifierGroups": [],
+      "addOns": [
+        { "id": "pilau-rice", "name": "Pilau Rice", "price": 3.50 },
+        { "id": "mint-chutney", "name": "Mint Chutney", "price": 0.75 }
+      ],
+      "newItem": true,
+      "available": true,
+      "calories": 720
+    },
+    {
+      "id": "paneer-tikka",
+      "categoryId": "grills",
+      "name": "Paneer Tikka",
+      "description": "Indian cottage cheese cubes marinated in spices and chargrilled with peppers and onions.",
+      "price": 10.95,
+      "images": ["https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=400"],
+      "allergens": ["dairy"],
+      "dietaryTags": ["vegetarian", "gluten-free-option"],
+      "spiceLevel": 2,
+      "modifierGroups": [],
+      "addOns": [
+        { "id": "pilau-rice", "name": "Pilau Rice", "price": 3.50 },
+        { "id": "plain-naan", "name": "Plain Naan", "price": 2.95 }
+      ],
+      "popular": true,
+      "available": true,
+      "calories": 480
+    },
+    {
+      "id": "chicken-biryani",
+      "categoryId": "biryanis",
+      "name": "Chicken Biryani",
+      "description": "Aromatic basmati rice layered with spiced chicken, saffron, and fried onions. Served with raita.",
+      "price": 14.95,
+      "images": ["https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400"],
+      "allergens": ["dairy", "nuts"],
+      "dietaryTags": ["halal"],
+      "spiceLevel": 2,
+      "modifierGroups": [
+        {
+          "id": "biryani-spice",
+          "name": "Spice Level",
+          "required": false,
+          "maxSelect": 1,
+          "minSelect": 0,
+          "options": [
+            { "id": "mild", "name": "Mild", "priceDelta": 0 },
+            { "id": "medium", "name": "Medium", "priceDelta": 0 },
+            { "id": "hot", "name": "Hot", "priceDelta": 0 }
+          ]
+        }
+      ],
+      "addOns": [
+        { "id": "extra-raita", "name": "Extra Raita", "price": 1.50 },
+        { "id": "fried-egg", "name": "Fried Egg", "price": 1.00 }
+      ],
+      "popular": true,
+      "available": true,
+      "calories": 820
+    },
+    {
+      "id": "lamb-biryani",
+      "categoryId": "biryanis",
+      "name": "Lamb Biryani",
+      "description": "Slow-cooked lamb pieces with fragrant rice, whole spices, and caramelised onions. A royal feast.",
+      "price": 16.95,
+      "images": ["https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400"],
+      "allergens": ["dairy", "nuts"],
+      "dietaryTags": ["halal"],
+      "spiceLevel": 2,
+      "modifierGroups": [],
+      "addOns": [
+        { "id": "extra-raita", "name": "Extra Raita", "price": 1.50 }
+      ],
+      "popular": true,
+      "available": true,
+      "calories": 890
+    },
+    {
+      "id": "vegetable-biryani",
+      "categoryId": "biryanis",
+      "name": "Vegetable Biryani",
+      "description": "Seasonal vegetables cooked with aromatic rice, saffron, and traditional biryani spices.",
+      "price": 11.95,
+      "images": ["https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400"],
+      "allergens": ["dairy", "nuts"],
+      "dietaryTags": ["vegetarian"],
+      "spiceLevel": 1,
+      "modifierGroups": [],
+      "addOns": [
+        { "id": "extra-raita", "name": "Extra Raita", "price": 1.50 }
+      ],
+      "available": true,
+      "calories": 680
+    },
+    {
+      "id": "pilau-rice",
+      "categoryId": "sides",
+      "name": "Pilau Rice",
+      "description": "Fragrant basmati rice cooked with cumin, cardamom, and bay leaves.",
+      "price": 3.50,
+      "images": ["https://images.unsplash.com/photo-1596560548464-f010549b84d7?w=400"],
+      "allergens": [],
+      "dietaryTags": ["vegetarian", "vegan", "gluten-free-option"],
+      "spiceLevel": 0,
+      "modifierGroups": [],
+      "addOns": [],
+      "available": true,
+      "calories": 320
+    },
+    {
+      "id": "plain-naan",
+      "categoryId": "sides",
+      "name": "Plain Naan",
+      "description": "Soft, fluffy leavened bread baked in our tandoor.",
+      "price": 2.95,
+      "images": ["https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400"],
+      "allergens": ["gluten", "dairy"],
+      "dietaryTags": ["vegetarian"],
+      "spiceLevel": 0,
+      "modifierGroups": [],
+      "addOns": [],
+      "available": true,
+      "calories": 280
+    },
+    {
+      "id": "garlic-naan",
+      "categoryId": "sides",
+      "name": "Garlic Naan",
+      "description": "Naan bread topped with garlic butter and fresh coriander.",
+      "price": 3.50,
+      "images": ["https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400"],
+      "allergens": ["gluten", "dairy"],
+      "dietaryTags": ["vegetarian"],
+      "spiceLevel": 0,
+      "modifierGroups": [],
+      "addOns": [],
+      "popular": true,
+      "available": true,
+      "calories": 340
+    },
+    {
+      "id": "peshwari-naan",
+      "categoryId": "sides",
+      "name": "Peshwari Naan",
+      "description": "Sweet naan stuffed with coconut, almonds, and sultanas. Irresistible!",
+      "price": 3.95,
+      "images": ["https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400"],
+      "allergens": ["gluten", "dairy", "nuts"],
+      "dietaryTags": ["vegetarian"],
+      "spiceLevel": 0,
+      "modifierGroups": [],
+      "addOns": [],
+      "popular": true,
+      "available": true,
+      "calories": 420
+    },
+    {
+      "id": "keema-naan",
+      "categoryId": "sides",
+      "name": "Keema Naan",
+      "description": "Naan stuffed with spiced minced lamb. A meal in itself!",
+      "price": 4.25,
+      "images": ["https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400"],
+      "allergens": ["gluten", "dairy"],
+      "dietaryTags": ["halal"],
+      "spiceLevel": 2,
+      "modifierGroups": [],
+      "addOns": [],
+      "available": true,
+      "calories": 480
+    },
+    {
+      "id": "raita",
+      "categoryId": "sides",
+      "name": "Raita",
+      "description": "Cool cucumber and mint yoghurt. Perfect for balancing spicy dishes.",
+      "price": 2.50,
+      "images": ["https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=400"],
+      "allergens": ["dairy"],
+      "dietaryTags": ["vegetarian", "gluten-free-option"],
+      "spiceLevel": 0,
+      "modifierGroups": [],
+      "addOns": [],
+      "available": true,
+      "calories": 80
+    },
+    {
+      "id": "mango-lassi",
+      "categoryId": "drinks",
+      "name": "Mango Lassi",
+      "description": "Creamy yoghurt smoothie with sweet Alphonso mango. Refreshing and cooling.",
+      "price": 4.50,
+      "images": ["https://images.unsplash.com/photo-1527661591475-527312dd65f5?w=400"],
+      "allergens": ["dairy"],
+      "dietaryTags": ["vegetarian", "gluten-free-option"],
+      "spiceLevel": 0,
+      "modifierGroups": [],
+      "addOns": [],
+      "popular": true,
+      "available": true,
+      "calories": 280
+    },
+    {
+      "id": "masala-chai",
+      "categoryId": "drinks",
+      "name": "Masala Chai",
+      "description": "Traditional spiced tea with cardamom, cinnamon, and ginger. Served hot.",
+      "price": 3.25,
+      "images": ["https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=400"],
+      "allergens": ["dairy"],
+      "dietaryTags": ["vegetarian", "gluten-free-option"],
+      "spiceLevel": 0,
+      "modifierGroups": [],
+      "addOns": [],
+      "available": true,
+      "calories": 120
+    },
+    {
+      "id": "coca-cola",
+      "categoryId": "drinks",
+      "name": "Coca-Cola",
+      "description": "330ml can",
+      "price": 2.00,
+      "images": ["https://images.unsplash.com/photo-1554866585-cd94860890b7?w=400"],
+      "allergens": [],
+      "dietaryTags": ["vegetarian", "vegan", "gluten-free-option"],
+      "spiceLevel": 0,
+      "modifierGroups": [],
+      "addOns": [],
+      "available": true,
+      "calories": 139
+    },
+    {
+      "id": "gulab-jamun",
+      "categoryId": "desserts",
+      "name": "Gulab Jamun",
+      "description": "Soft milk dumplings soaked in rose-scented sugar syrup. Served warm with ice cream.",
+      "price": 5.50,
+      "images": ["https://images.unsplash.com/photo-1666190059673-219a21b732c4?w=400"],
+      "allergens": ["dairy", "gluten"],
+      "dietaryTags": ["vegetarian"],
+      "spiceLevel": 0,
+      "modifierGroups": [
+        {
+          "id": "ice-cream",
+          "name": "Add Ice Cream",
+          "required": false,
+          "maxSelect": 1,
+          "minSelect": 0,
+          "options": [
+            { "id": "vanilla", "name": "Vanilla Ice Cream", "priceDelta": 1.50 },
+            { "id": "mango", "name": "Mango Ice Cream", "priceDelta": 1.50 }
+          ]
+        }
+      ],
+      "addOns": [],
+      "popular": true,
+      "available": true,
+      "calories": 380
+    },
+    {
+      "id": "kheer",
+      "categoryId": "desserts",
+      "name": "Kheer",
+      "description": "Creamy rice pudding flavoured with cardamom, saffron, and pistachios.",
+      "price": 4.95,
+      "images": ["https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=400"],
+      "allergens": ["dairy", "nuts"],
+      "dietaryTags": ["vegetarian", "gluten-free-option"],
+      "spiceLevel": 0,
+      "modifierGroups": [],
+      "addOns": [],
+      "available": true,
+      "calories": 320
+    },
+    {
+      "id": "kulfi",
+      "categoryId": "desserts",
+      "name": "Kulfi",
+      "description": "Traditional Indian ice cream with pistachio and cardamom. Rich and creamy.",
+      "price": 4.50,
+      "images": ["https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=400"],
+      "allergens": ["dairy", "nuts"],
+      "dietaryTags": ["vegetarian", "gluten-free-option"],
+      "spiceLevel": 0,
+      "modifierGroups": [],
+      "addOns": [],
+      "popular": true,
+      "available": true,
+      "calories": 280
+    }
+  ]
+}

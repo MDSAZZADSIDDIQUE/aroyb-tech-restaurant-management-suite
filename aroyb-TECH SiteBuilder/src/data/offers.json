@@ -1,0 +1,93 @@
+{
+  "offers": [
+    {
+      "id": "family-feast",
+      "title": "Family Feast Bundle",
+      "description": "Perfect for family dinners! Includes 2 curries, 2 rice, 2 naans, and 4 starters.",
+      "items": [
+        { "itemId": "chicken-tikka-masala", "quantity": 1 },
+        { "itemId": "lamb-rogan-josh", "quantity": 1 },
+        { "itemId": "pilau-rice", "quantity": 2 },
+        { "itemId": "garlic-naan", "quantity": 2 },
+        { "itemId": "samosa-veg", "quantity": 2 },
+        { "itemId": "onion-bhaji", "quantity": 2 }
+      ],
+      "originalPrice": 54.70,
+      "price": 44.95,
+      "discount": "Save £9.75",
+      "validUntil": "2025-03-31",
+      "terms": "Available for delivery and collection. Cannot be combined with other offers.",
+      "enabled": true,
+      "tags": ["family", "popular", "best-value"],
+      "type": "bundle"
+    },
+    {
+      "id": "lunch-deal",
+      "title": "Weekday Lunch Deal",
+      "description": "Any curry + rice + drink for just £9.95. Available Mon-Fri, 12pm-3pm.",
+      "items": [],
+      "originalPrice": 18.45,
+      "price": 9.95,
+      "discount": "Save over £8",
+      "validUntil": "2025-12-31",
+      "terms": "Monday to Friday, 12pm-3pm only. Excludes king prawn dishes.",
+      "enabled": true,
+      "tags": ["lunch", "weekday"],
+      "type": "bundle"
+    },
+    {
+      "id": "biryani-bonanza",
+      "title": "Biryani Bonanza",
+      "description": "Any biryani + starter + drink for a special price.",
+      "items": [
+        { "itemId": "chicken-biryani", "quantity": 1 },
+        { "itemId": "samosa-veg", "quantity": 1 },
+        { "itemId": "mango-lassi", "quantity": 1 }
+      ],
+      "originalPrice": 24.40,
+      "price": 18.95,
+      "discount": "Save £5.45",
+      "enabled": true,
+      "tags": ["biryani", "popular"],
+      "type": "bundle"
+    },
+    {
+      "id": "free-delivery-25",
+      "title": "Free Delivery on Orders Over £25",
+      "description": "Order £25 or more and we'll deliver to your door for free!",
+      "items": [],
+      "originalPrice": 0,
+      "price": 0,
+      "discount": "Free Delivery",
+      "enabled": true,
+      "tags": ["delivery", "free"],
+      "type": "free-delivery"
+    },
+    {
+      "id": "20-off-first",
+      "title": "20% Off Your First Order",
+      "description": "New to Aroyb? Get 20% off your first online order with code WELCOME20.",
+      "items": [],
+      "originalPrice": 0,
+      "price": 0,
+      "discount": "20% Off",
+      "terms": "New customers only. Minimum order £15. Cannot be combined with other offers.",
+      "enabled": true,
+      "tags": ["new-customer", "discount"],
+      "type": "discount"
+    },
+    {
+      "id": "tandoori-tuesday",
+      "title": "Tandoori Tuesday",
+      "description": "25% off all grill items every Tuesday! Perfect for meat lovers.",
+      "items": [],
+      "originalPrice": 0,
+      "price": 0,
+      "discount": "25% Off Grills",
+      "terms": "Every Tuesday. Dine-in and collection only.",
+      "enabled": true,
+      "tags": ["tuesday", "grill", "discount"],
+      "type": "discount"
+    }
+  ]
+}

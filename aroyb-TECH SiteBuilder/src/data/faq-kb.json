@@ -1,0 +1,109 @@
+{
+  "entries": [
+    {
+      "id": "delivery-areas",
+      "question": "What areas do you deliver to?",
+      "answer": "We deliver across Manchester (M1-M21) and Birmingham (B1-B20). Delivery fees vary by zone, starting from free for local areas. Enter your postcode at checkout to check availability and see your delivery fee.",
+      "keywords": ["delivery", "deliver", "areas", "zone", "postcode", "where", "location", "distance", "radius"],
+      "category": "delivery"
+    },
+    {
+      "id": "delivery-time",
+      "question": "How long does delivery take?",
+      "answer": "Delivery typically takes 25-45 minutes depending on your location and how busy we are. You'll see an estimated time when you place your order. During peak times (Friday-Sunday evenings), please allow a little extra time.",
+      "keywords": ["delivery", "time", "long", "how long", "wait", "minutes", "quick", "fast", "slow"],
+      "category": "delivery"
+    },
+    {
+      "id": "minimum-order",
+      "question": "Is there a minimum order for delivery?",
+      "answer": "Yes, minimum orders vary by location. For local zones it's usually £10-12, and for outer zones it's £15-18. The exact minimum is shown when you select your delivery address.",
+      "keywords": ["minimum", "order", "amount", "spend", "least", "required"],
+      "category": "delivery"
+    },
+    {
+      "id": "opening-hours",
+      "question": "What are your opening hours?",
+      "answer": "We're open 7 days a week. Manchester: Mon-Wed 12pm-10pm, Thu 12pm-10:30pm, Fri-Sat 12pm-11pm, Sun 1pm-9:30pm. Birmingham: Mon-Wed 11:30am-10pm, Thu 11:30am-10:30pm, Fri-Sat 11:30am-11:30pm, Sun 12pm-9pm.",
+      "keywords": ["open", "hours", "time", "close", "closing", "opening", "when", "schedule"],
+      "category": "hours"
+    },
+    {
+      "id": "allergens",
+      "question": "Do you have allergen information?",
+      "answer": "Yes! All our dishes display allergen information clearly. Look for the allergen badges on each menu item. We cover all 14 major allergens. If you have specific concerns or severe allergies, please call us before ordering so we can take extra precautions.",
+      "keywords": ["allergen", "allergy", "allergies", "allergic", "gluten", "dairy", "nuts", "peanuts", "shellfish", "egg"],
+      "category": "allergens"
+    },
+    {
+      "id": "vegan-vegetarian",
+      "question": "Do you have vegan or vegetarian options?",
+      "answer": "Absolutely! We have a great selection of vegetarian and vegan dishes. Look for the green V (vegetarian) and VG (vegan) badges on our menu. Popular choices include Chana Masala, Vegetable Korma, and our Vegetable Biryani.",
+      "keywords": ["vegan", "vegetarian", "veggie", "plant", "meat-free", "no meat", "vegetables"],
+      "category": "dietary"
+    },
+    {
+      "id": "halal",
+      "question": "Is your food halal?",
+      "answer": "Yes, all our meat is 100% halal certified. We source from approved halal suppliers and maintain strict halal standards throughout our kitchen.",
+      "keywords": ["halal", "certified", "meat", "chicken", "lamb", "beef"],
+      "category": "dietary"
+    },
+    {
+      "id": "gluten-free",
+      "question": "Do you have gluten-free options?",
+      "answer": "Yes! Many of our dishes are naturally gluten-free or can be made gluten-free. Look for the GF badge on menu items. Most curries, biryanis, and grilled items are gluten-free when ordered without bread. Ask about naan alternatives.",
+      "keywords": ["gluten", "gluten-free", "coeliac", "celiac", "wheat", "bread"],
+      "category": "dietary"
+    },
+    {
+      "id": "spice-levels",
+      "question": "Can I adjust the spice level?",
+      "answer": "Of course! Most of our curries can be made mild, medium, hot, or extra hot. Just select your preferred spice level when ordering. Our team is happy to recommend dishes based on your heat preference.",
+      "keywords": ["spice", "spicy", "hot", "mild", "heat", "chilli", "chili", "adjust"],
+      "category": "menu"
+    },
+    {
+      "id": "reservation",
+      "question": "Can I make a reservation?",
+      "answer": "We accept reservations for parties of 4 or more. For smaller groups, we operate on a walk-in basis. To book, call us directly or use the contact form. For events and large parties (10+), please book at least 48 hours in advance.",
+      "keywords": ["reservation", "reserve", "book", "booking", "table", "party", "group"],
+      "category": "dining"
+    },
+    {
+      "id": "parking",
+      "question": "Is there parking available?",
+      "answer": "Manchester: Street parking available on Curry Mile, or use the nearby Rusholme Place car park (5 min walk). Birmingham: NCP Digbeth is a 3-minute walk, or use street parking after 6pm. Collection customers can often find short-stay spots directly outside.",
+      "keywords": ["parking", "park", "car", "drive", "vehicle", "where to park"],
+      "category": "location"
+    },
+    {
+      "id": "collection",
+      "question": "How does collection work?",
+      "answer": "Order online and select 'Collection'. You'll receive an estimated ready time. Head to the restaurant at that time and collect from the counter. Show your order confirmation email or give your order number. Easy!",
+      "keywords": ["collection", "collect", "pickup", "pick up", "takeaway", "take away"],
+      "category": "orders"
+    },
+    {
+      "id": "catering",
+      "question": "Do you offer catering services?",
+      "answer": "Yes! We cater for weddings, corporate events, parties, and private functions. Our catering menu includes platters, buffet options, and bespoke menus. Contact us for a quote—we're happy to discuss your requirements.",
+      "keywords": ["catering", "cater", "wedding", "party", "event", "corporate", "function", "buffet"],
+      "category": "catering"
+    },
+    {
+      "id": "payment",
+      "question": "What payment methods do you accept?",
+      "answer": "We accept all major credit/debit cards, Apple Pay, Google Pay, and cash on delivery. Online orders can be paid by card. In-restaurant, we accept cards and cash.",
+      "keywords": ["payment", "pay", "card", "cash", "credit", "debit", "apple pay", "google pay"],
+      "category": "payment"
+    },
+    {
+      "id": "refund",
+      "question": "What is your refund policy?",
+      "answer": "If something's wrong with your order, please contact us within 1 hour of delivery. We'll either remake your order, provide a refund, or credit your account. We want every experience to be excellent, so do let us know if anything isn't right.",
+      "keywords": ["refund", "money back", "complaint", "wrong", "mistake", "issue", "problem"],
+      "category": "policy"
+    }
+  ]
+}
