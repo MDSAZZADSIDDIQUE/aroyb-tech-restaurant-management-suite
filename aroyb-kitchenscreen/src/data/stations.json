@@ -1,0 +1,47 @@
+[
+  {
+    "id": "grill",
+    "name": "Grill",
+    "color": "text-orange-500",
+    "bgColor": "bg-orange-500/20",
+    "icon": "🔥",
+    "bumpDestination": "ready",
+    "active": true
+  },
+  {
+    "id": "fry",
+    "name": "Fry",
+    "color": "text-amber-500",
+    "bgColor": "bg-amber-500/20",
+    "icon": "🍟",
+    "bumpDestination": "ready",
+    "active": true
+  },
+  {
+    "id": "pizza",
+    "name": "Pizza",
+    "color": "text-red-500",
+    "bgColor": "bg-red-500/20",
+    "icon": "🍕",
+    "bumpDestination": "ready",
+    "active": true
+  },
+  {
+    "id": "bar",
+    "name": "Bar",
+    "color": "text-blue-500",
+    "bgColor": "bg-blue-500/20",
+    "icon": "🍹",
+    "bumpDestination": "completed",
+    "active": true
+  },
+  {
+    "id": "prep",
+    "name": "Prep",
+    "color": "text-green-500",
+    "bgColor": "bg-green-500/20",
+    "icon": "🥗",
+    "bumpDestination": "ready",
+    "active": true
+  }
+]

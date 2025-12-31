@@ -1,0 +1,14 @@
+{
+  "lateThresholdMinutes": 15,
+  "soundEnabled": true,
+  "autoRefreshSeconds": 5,
+  "stationConfigs": {
+    "grill": { "bumpDestination": "ready", "active": true },
+    "fry": { "bumpDestination": "ready", "active": true },
+    "pizza": { "bumpDestination": "ready", "active": true },
+    "bar": { "bumpDestination": "completed", "active": true },
+    "prep": { "bumpDestination": "ready", "active": true }
+  },
+  "rushSimulatorEnabled": false,
+  "kitchenLoad": 50
+}

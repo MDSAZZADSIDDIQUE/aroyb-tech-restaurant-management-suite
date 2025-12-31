@@ -45,12 +45,12 @@ export function formatMinutes(minutes: number): string {
   return mins > 0 ? `${hours}h ${mins}m` : `${hours}h`;
 }
 
-// Channel labels and colors
+// Channel labels and colors - warm tones matching SiteBuilder
 export const channelConfig: Record<SourceChannel, { label: string; color: string; bgColor: string }> = {
-  web: { label: 'Web', color: 'text-blue-700', bgColor: 'bg-blue-100' },
-  app: { label: 'App', color: 'text-purple-700', bgColor: 'bg-purple-100' },
-  qr: { label: 'QR Scan', color: 'text-green-700', bgColor: 'bg-green-100' },
-  marketplace: { label: 'Marketplace', color: 'text-orange-700', bgColor: 'bg-orange-100' },
+  web: { label: 'Web', color: 'text-[#ed7424]', bgColor: 'bg-orange-50' },
+  app: { label: 'App', color: 'text-[#c2850d]', bgColor: 'bg-amber-50' },
+  qr: { label: 'QR Scan', color: 'text-green-700', bgColor: 'bg-green-50' },
+  marketplace: { label: 'Marketplace', color: 'text-[#ab2727]', bgColor: 'bg-red-50' },
 };
 
 // Fulfillment labels and icons
@@ -60,16 +60,16 @@ export const fulfillmentConfig: Record<FulfillmentType, { label: string; icon: s
   'dine-in': { label: 'Dine-in', icon: '🍽️' },
 };
 
-// Order status config
+// Order status config - warm tones
 export const statusConfig: Record<OrderStatus, { label: string; color: string; bgColor: string }> = {
-  pending: { label: 'Pending', color: 'text-yellow-700', bgColor: 'bg-yellow-100' },
-  accepted: { label: 'Accepted', color: 'text-blue-700', bgColor: 'bg-blue-100' },
-  preparing: { label: 'Preparing', color: 'text-orange-700', bgColor: 'bg-orange-100' },
-  ready: { label: 'Ready', color: 'text-green-700', bgColor: 'bg-green-100' },
-  out_for_delivery: { label: 'Out for Delivery', color: 'text-purple-700', bgColor: 'bg-purple-100' },
-  completed: { label: 'Completed', color: 'text-gray-700', bgColor: 'bg-gray-100' },
-  cancelled: { label: 'Cancelled', color: 'text-red-700', bgColor: 'bg-red-100' },
-  refunded: { label: 'Refunded', color: 'text-red-700', bgColor: 'bg-red-100' },
+  pending: { label: 'Pending', color: 'text-amber-700', bgColor: 'bg-amber-50' },
+  accepted: { label: 'Accepted', color: 'text-[#ed7424]', bgColor: 'bg-orange-50' },
+  preparing: { label: 'Preparing', color: 'text-[#c2850d]', bgColor: 'bg-amber-50' },
+  ready: { label: 'Ready', color: 'text-green-700', bgColor: 'bg-green-50' },
+  out_for_delivery: { label: 'Out for Delivery', color: 'text-[#ab2727]', bgColor: 'bg-red-50' },
+  completed: { label: 'Completed', color: 'text-neutral-600', bgColor: 'bg-neutral-100' },
+  cancelled: { label: 'Cancelled', color: 'text-[#cc3232]', bgColor: 'bg-red-50' },
+  refunded: { label: 'Refunded', color: 'text-[#cc3232]', bgColor: 'bg-red-50' },
 };
 
 // Risk level config
