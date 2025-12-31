@@ -1,0 +1,9 @@
+[
+  { "id": "cat-starters", "name": "Starters" },
+  { "id": "cat-mains", "name": "Mains" },
+  { "id": "cat-pizza", "name": "Pizzas" },
+  { "id": "cat-burgers", "name": "Burgers" },
+  { "id": "cat-sides", "name": "Sides" },
+  { "id": "cat-drinks", "name": "Drinks" },
+  { "id": "cat-desserts", "name": "Desserts" }
+]

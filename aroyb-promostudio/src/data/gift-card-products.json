@@ -1,0 +1,8 @@
+[
+  { "id": "gc-prod-01", "name": "Classic Gift Card", "amounts": [10, 25, 50, 100], "allowCustomAmount": false, "designTemplate": "classic", "expiryDays": 365, "termsText": "Valid for 12 months from purchase date. Non-refundable.", "active": true },
+  { "id": "gc-prod-02", "name": "Birthday Gift Card", "amounts": [15, 25, 50], "allowCustomAmount": true, "minCustomAmount": 10, "maxCustomAmount": 200, "designTemplate": "birthday", "expiryDays": 365, "termsText": "Happy Birthday! Valid for 12 months.", "active": true },
+  { "id": "gc-prod-03", "name": "Holiday Gift Card", "amounts": [20, 50, 100], "allowCustomAmount": false, "designTemplate": "holiday", "expiryDays": 180, "termsText": "Season's Greetings! Valid for 6 months.", "active": true },
+  { "id": "gc-prod-04", "name": "Thank You Gift Card", "amounts": [10, 20, 30], "allowCustomAmount": true, "minCustomAmount": 5, "maxCustomAmount": 100, "designTemplate": "thank_you", "expiryDays": 365, "termsText": "A token of appreciation. Valid for 12 months.", "active": true },
+  { "id": "gc-prod-05", "name": "Corporate Gift Card", "amounts": [50, 100, 250, 500], "allowCustomAmount": true, "minCustomAmount": 50, "maxCustomAmount": 1000, "designTemplate": "classic", "termsText": "For corporate gifting. No expiry.", "active": true },
+  { "id": "gc-prod-06", "name": "Loyalty Reward Card", "amounts": [5, 10, 15], "allowCustomAmount": false, "designTemplate": "classic", "expiryDays": 90, "termsText": "Loyalty reward. Valid for 90 days.", "active": true }
+]

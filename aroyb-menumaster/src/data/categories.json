@@ -1,0 +1,12 @@
+[
+  { "id": "cat-starters", "name": "Starters", "description": "Delicious appetizers to begin your meal", "sortOrder": 1, "channelsEnabled": ["web", "app", "qr"] },
+  { "id": "cat-mains", "name": "Main Courses", "description": "Hearty dishes to satisfy your appetite", "sortOrder": 2, "channelsEnabled": ["web", "app", "qr"] },
+  { "id": "cat-pizza", "name": "Pizzas", "description": "Hand-stretched, stone-baked pizzas", "sortOrder": 3, "channelsEnabled": ["web", "app", "qr"] },
+  { "id": "cat-burgers", "name": "Burgers", "description": "Gourmet burgers with premium toppings", "sortOrder": 4, "channelsEnabled": ["web", "app", "qr"] },
+  { "id": "cat-curry", "name": "Curry House", "description": "Authentic curries with aromatic spices", "sortOrder": 5, "channelsEnabled": ["web", "app", "qr"] },
+  { "id": "cat-sides", "name": "Sides", "description": "Perfect accompaniments to your meal", "sortOrder": 6, "channelsEnabled": ["web", "app", "qr"] },
+  { "id": "cat-salads", "name": "Salads", "description": "Fresh and healthy options", "sortOrder": 7, "channelsEnabled": ["web", "app", "qr"] },
+  { "id": "cat-desserts", "name": "Desserts", "description": "Sweet treats to finish your meal", "sortOrder": 8, "channelsEnabled": ["web", "app", "qr"] },
+  { "id": "cat-drinks", "name": "Drinks", "description": "Refreshing beverages", "sortOrder": 9, "channelsEnabled": ["web", "app", "qr"] },
+  { "id": "cat-breakfast", "name": "Breakfast", "description": "Start your day right", "sortOrder": 10, "channelsEnabled": ["web", "app"], "scheduleIds": ["sched-breakfast"] }
+]

@@ -1,0 +1,20 @@
+[
+  { "id": "addon-sides", "name": "Add a Side", "maxSelect": 2, "options": [
+    { "id": "as-chips", "name": "Chunky Chips", "price": 2.95, "inStock": true },
+    { "id": "as-sweet", "name": "Sweet Potato Fries", "price": 3.50, "inStock": true },
+    { "id": "as-onion", "name": "Onion Rings", "price": 2.95, "inStock": true },
+    { "id": "as-slaw", "name": "Coleslaw", "price": 1.95, "inStock": true }
+  ]},
+  { "id": "addon-naan", "name": "Add Bread", "maxSelect": 2, "options": [
+    { "id": "an-plain", "name": "Plain Naan", "price": 2.45, "inStock": true },
+    { "id": "an-garlic", "name": "Garlic Naan", "price": 2.95, "inStock": true },
+    { "id": "an-peshwari", "name": "Peshwari Naan", "price": 3.50, "inStock": true },
+    { "id": "an-chilli", "name": "Chilli Naan", "price": 3.00, "inStock": true }
+  ]},
+  { "id": "addon-protein", "name": "Add Protein", "maxSelect": 1, "options": [
+    { "id": "ap-chicken", "name": "Grilled Chicken", "price": 3.50, "inStock": true },
+    { "id": "ap-salmon", "name": "Grilled Salmon", "price": 5.00, "inStock": true },
+    { "id": "ap-prawns", "name": "King Prawns", "price": 4.50, "inStock": true },
+    { "id": "ap-halloumi", "name": "Halloumi", "price": 3.00, "inStock": true }
+  ]}
+]

@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap");
+@import "tailwindcss";
+
+:root {
+  /* PrintServe Theme - warm orange matching Aroyb brand */
+  --primary: #ed7424;
+  --primary-hover: #de5a1a;
+  --primary-light: #f19048;
+  --secondary: #e1ac13;
+  --accent: #cc3232;
+  
+  /* Dark admin backgrounds */
+  --bg-primary: #0c0a09;
+  --bg-secondary: #1c1917;
+  --bg-card: #292524;
+  --bg-elevated: #44403c;
+  
+  /* Text */
+  --text-primary: #fafaf9;
+  --text-secondary: #d6d3d1;
+  --text-muted: #a8a29e;
+  
+  /* Status */
+  --status-success: #22c55e;
+  --status-warning: #f59e0b;
+  --status-error: #ef4444;
+  --status-info: #3b82f6;
+  
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--text-primary);
+  background: var(--bg-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg-elevated);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #57534e;
+}
+
+/* Focus styles */
+*:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+/* Thermal paper preview */
+.thermal-paper {
+  background: #fffef8;
+  color: #000;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1.4;
+  padding: 16px;
+  border-radius: 4px;
+  max-width: 300px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.thermal-paper-wide {
+  max-width: 400px;
+}
+
+.thermal-paper .divider {
+  border-top: 1px dashed #ccc;
+  margin: 8px 0;
+}
+
+.thermal-paper .header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.thermal-paper .item-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thermal-paper .modifier {
+  padding-left: 16px;
+  font-size: 11px;
+  color: #444;
+}
+
+.thermal-paper .total {
+  font-weight: bold;
+  border-top: 1px solid #000;
+  padding-top: 4px;
+}
+
+/* Label grid */
+.label-grid {
+  display: grid;
+  gap: 8px;
+}
+
+.label-grid.small { grid-template-columns: repeat(3, 1fr); }
+.label-grid.medium { grid-template-columns: repeat(2, 1fr); }
+.label-grid.large { grid-template-columns: 1fr; }
+
+.label-item {
+  background: #fff;
+  color: #000;
+  border: 2px solid #333;
+  border-radius: 4px;
+  padding: 8px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+}
+
+.label-item.allergen {
+  border-color: #ef4444;
+  background: #fef2f2;
+}
+
+/* Demo banner animation */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.demo-banner {
+  background: linear-gradient(
+    90deg,
+    #ed7424 0%,
+    #f19048 25%,
+    #ed7424 50%,
+    #f19048 75%,
+    #ed7424 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 3s linear infinite;
+}
+
+/* Sidebar */
+.sidebar {
+  background: var(--bg-secondary);
+  border-right: 1px solid var(--bg-elevated);
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  color: var(--text-secondary);
+  border-radius: 8px;
+  transition: all 0.15s ease;
+}
+
+.sidebar-link:hover {
+  background: var(--bg-elevated);
+  color: var(--text-primary);
+}
+
+.sidebar-link.active {
+  background: var(--primary);
+  color: white;
+}
+
+/* Cards */
+.card {
+  background: var(--bg-card);
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid var(--bg-elevated);
+}
+
+.card-hover:hover {
+  border-color: var(--primary);
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.15s ease;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: white;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: var(--primary-hover);
+}
+
+.btn-success {
+  background: var(--status-success);
+  color: white;
+}
+
+.btn-success:hover:not(:disabled) {
+  background: #16a34a;
+}
+
+.btn-danger {
+  background: var(--status-error);
+  color: white;
+}
+
+.btn-danger:hover:not(:disabled) {
+  background: #dc2626;
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--text-secondary);
+  border: 1px solid var(--bg-elevated);
+}
+
+.btn-ghost:hover:not(:disabled) {
+  background: var(--bg-elevated);
+  color: var(--text-primary);
+}
+
+/* Badge */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Input */
+.input {
+  background: var(--bg-secondary);
+  border: 1px solid var(--bg-elevated);
+  color: var(--text-primary);
+  padding: 10px 14px;
+  border-radius: 8px;
+  width: 100%;
+  transition: border-color 0.15s ease;
+}
+
+.input:focus {
+  border-color: var(--primary);
+}
+
+.input::placeholder {
+  color: var(--text-muted);
+}
+
+/* Packer view - large touch targets */
+.packer-item {
+  min-height: 60px;
+  font-size: 18px;
+  padding: 16px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.packer-item:not(.checked) {
+  background: var(--bg-card);
+  border: 2px solid var(--bg-elevated);
+}
+
+.packer-item.checked {
+  background: rgba(34, 197, 94, 0.1);
+  border: 2px solid var(--status-success);
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.packer-item.high-risk {
+  border-color: var(--status-error);
+  background: rgba(239, 68, 68, 0.1);
+}
+
+.packer-checkbox {
+  width: 32px;
+  height: 32px;
+  border: 3px solid var(--text-secondary);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.packer-item.checked .packer-checkbox {
+  background: var(--status-success);
+  border-color: var(--status-success);
+}
+
+/* Print preview styles */
+@media print {
+  body {
+    background: white;
+    color: black;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+  
+  .thermal-paper {
+    box-shadow: none;
+    max-width: 100%;
+  }
+}

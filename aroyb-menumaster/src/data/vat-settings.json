@@ -1,0 +1,9 @@
+{
+  "rates": [
+    { "id": "vat-std", "name": "Standard Rate", "rate": 20, "category": "food" },
+    { "id": "vat-drink", "name": "Drinks", "rate": 20, "category": "drink" },
+    { "id": "vat-alcohol", "name": "Alcohol", "rate": 20, "category": "alcohol" },
+    { "id": "vat-zero", "name": "Zero Rate", "rate": 0, "category": "zero" }
+  ],
+  "defaultCategory": "food"
+}

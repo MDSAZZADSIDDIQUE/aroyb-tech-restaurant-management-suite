@@ -1,0 +1,4 @@
+[
+  { "id": "hh-1", "name": "Happy Hour", "startTime": "16:00", "endTime": "19:00", "daysOfWeek": ["mon", "tue", "wed", "thu", "fri"], "appliesToCategoryIds": ["cat-drinks"], "appliesToItemIds": [], "discountType": "percentage", "discountAmount": 20, "active": true },
+  { "id": "hh-2", "name": "Pizza Monday", "startTime": "17:00", "endTime": "21:00", "daysOfWeek": ["mon"], "appliesToCategoryIds": ["cat-pizza"], "appliesToItemIds": [], "discountType": "percentage", "discountAmount": 25, "active": true }
+]

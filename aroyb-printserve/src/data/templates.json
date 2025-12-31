@@ -1,0 +1,48 @@
+[
+  {
+    "branchId": "branch-camden",
+    "receipt": {
+      "headerLines": ["AROYB CAMDEN TOWN", "42 Camden High Street", "London NW1 0JH", "Tel: 020 7123 4567"],
+      "footerText": "Thank you for dining with us!\nScan QR for feedback & rewards",
+      "showVat": true,
+      "fontScale": 1,
+      "showLogo": true
+    },
+    "docket": {
+      "groupByStation": true,
+      "showNotesTop": true,
+      "copyCount": 2,
+      "showAllergenBanner": true,
+      "fontSize": "medium"
+    },
+    "labels": {
+      "sizePreset": "medium",
+      "showChecklist": true,
+      "showIcons": true,
+      "showAllergenWarning": true
+    }
+  },
+  {
+    "branchId": "branch-shoreditch",
+    "receipt": {
+      "headerLines": ["AROYB SHOREDITCH", "15 Brick Lane", "London E1 6PU", "Tel: 020 7987 6543"],
+      "footerText": "Thanks for visiting Aroyb!\nFollow us @aroybuk",
+      "showVat": true,
+      "fontScale": 1,
+      "showLogo": true
+    },
+    "docket": {
+      "groupByStation": false,
+      "showNotesTop": false,
+      "copyCount": 1,
+      "showAllergenBanner": true,
+      "fontSize": "large"
+    },
+    "labels": {
+      "sizePreset": "large",
+      "showChecklist": true,
+      "showIcons": true,
+      "showAllergenWarning": true
+    }
+  }
+]

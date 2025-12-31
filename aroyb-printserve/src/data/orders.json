@@ -1,0 +1,222 @@
+[
+  {
+    "id": "ord-001", "orderNumber": "ORD-001", "createdAt": "2024-12-31T10:15:00Z", "channel": "web", "fulfillmentType": "delivery",
+    "customerName": "James Wilson", "customerPhone": "07700123456", "address": "12 Chalk Farm Road, London NW1 8AG",
+    "items": [
+      { "id": "i1", "name": "Chicken Tikka Masala", "quantity": 2, "modifiers": ["Extra Spicy", "Extra Sauce"], "station": "grill", "allergens": ["Dairy", "Gluten"], "price": 12.95 },
+      { "id": "i2", "name": "Pilau Rice", "quantity": 2, "modifiers": [], "station": "prep", "price": 3.50 },
+      { "id": "i3", "name": "Garlic Naan", "quantity": 4, "modifiers": [], "station": "grill", "allergens": ["Gluten", "Dairy"], "price": 2.95 }
+    ],
+    "customerNotes": "Please ring doorbell, baby sleeping",
+    "totals": { "subtotal": 38.25, "fees": 2.99, "tip": 5.00, "total": 46.24 },
+    "paymentMethod": "Card", "status": "pending"
+  },
+  {
+    "id": "ord-002", "orderNumber": "ORD-002", "createdAt": "2024-12-31T10:20:00Z", "channel": "app", "fulfillmentType": "collection",
+    "customerName": "Sarah Chen", "customerPhone": "07700987654",
+    "items": [
+      { "id": "i4", "name": "Fish & Chips", "quantity": 1, "modifiers": ["Mushy Peas"], "station": "fry", "allergens": ["Fish", "Gluten"], "price": 11.50 },
+      { "id": "i5", "name": "Onion Rings", "quantity": 1, "modifiers": [], "station": "fry", "allergens": ["Gluten"], "price": 3.95 }
+    ],
+    "allergenNotes": "SEVERE NUT ALLERGY - Check all items",
+    "totals": { "subtotal": 15.45, "fees": 0, "tip": 2.00, "total": 17.45 },
+    "paymentMethod": "Apple Pay", "status": "preparing"
+  },
+  {
+    "id": "ord-003", "orderNumber": "ORD-003", "createdAt": "2024-12-31T10:25:00Z", "channel": "qr", "fulfillmentType": "dine-in",
+    "customerName": "Table 7", "tableNumber": "7",
+    "items": [
+      { "id": "i6", "name": "Margherita Pizza", "quantity": 1, "modifiers": ["Extra Cheese", "Well Done"], "station": "pizza", "allergens": ["Gluten", "Dairy"], "price": 10.95 },
+      { "id": "i7", "name": "Caesar Salad", "quantity": 1, "modifiers": ["No Croutons", "Dressing on Side"], "station": "prep", "allergens": ["Dairy", "Fish"], "price": 8.50 },
+      { "id": "i8", "name": "Mojito", "quantity": 2, "modifiers": ["Virgin"], "station": "bar", "price": 6.95 }
+    ],
+    "totals": { "subtotal": 33.35, "fees": 0, "tip": 0, "total": 33.35 },
+    "paymentMethod": "Pending", "status": "preparing"
+  },
+  {
+    "id": "ord-004", "orderNumber": "ORD-004", "createdAt": "2024-12-31T10:30:00Z", "channel": "pos", "fulfillmentType": "dine-in",
+    "customerName": "Table 3", "tableNumber": "3",
+    "items": [
+      { "id": "i9", "name": "Ribeye Steak", "quantity": 1, "modifiers": ["Medium Rare", "Peppercorn Sauce"], "station": "grill", "price": 24.95 },
+      { "id": "i10", "name": "Loaded Fries", "quantity": 1, "modifiers": ["Extra Bacon"], "station": "fry", "allergens": ["Dairy"], "price": 6.95 },
+      { "id": "i11", "name": "Pint IPA", "quantity": 2, "modifiers": [], "station": "bar", "allergens": ["Gluten"], "price": 5.50 }
+    ],
+    "totals": { "subtotal": 42.90, "fees": 0, "tip": 8.00, "total": 50.90 },
+    "paymentMethod": "Card", "status": "ready"
+  },
+  {
+    "id": "ord-005", "orderNumber": "ORD-005", "createdAt": "2024-12-31T10:35:00Z", "channel": "web", "fulfillmentType": "delivery",
+    "customerName": "Michael Brown", "customerPhone": "07701234567", "address": "88 Regent's Park Road, NW1 8UY",
+    "items": [
+      { "id": "i12", "name": "Pepperoni Pizza", "quantity": 2, "modifiers": [], "station": "pizza", "allergens": ["Gluten", "Dairy"], "price": 12.95 },
+      { "id": "i13", "name": "Meat Feast Pizza", "quantity": 1, "modifiers": ["No Olives"], "station": "pizza", "allergens": ["Gluten", "Dairy"], "price": 14.95 },
+      { "id": "i14", "name": "Garlic Bread", "quantity": 2, "modifiers": ["With Cheese"], "station": "pizza", "allergens": ["Gluten", "Dairy"], "price": 4.50 },
+      { "id": "i15", "name": "Coca Cola", "quantity": 4, "modifiers": [], "station": "bar", "price": 2.50 }
+    ],
+    "customerNotes": "Extra napkins please",
+    "totals": { "subtotal": 59.85, "fees": 3.99, "tip": 0, "total": 63.84 },
+    "paymentMethod": "PayPal", "status": "pending"
+  },
+  {
+    "id": "ord-006", "orderNumber": "ORD-006", "createdAt": "2024-12-31T10:40:00Z", "channel": "app", "fulfillmentType": "collection",
+    "customerName": "Emma Davis", "customerPhone": "07702345678",
+    "items": [
+      { "id": "i16", "name": "Chicken Wings", "quantity": 2, "modifiers": ["Buffalo Hot", "Extra Sauce"], "station": "fry", "allergens": ["Sesame"], "price": 8.95 },
+      { "id": "i17", "name": "Coleslaw", "quantity": 1, "modifiers": [], "station": "prep", "allergens": ["Eggs", "Dairy"], "price": 2.50 }
+    ],
+    "totals": { "subtotal": 20.40, "fees": 0, "tip": 3.00, "total": 23.40 },
+    "paymentMethod": "Google Pay", "status": "ready"
+  },
+  {
+    "id": "ord-007", "orderNumber": "ORD-007", "createdAt": "2024-12-31T10:45:00Z", "channel": "qr", "fulfillmentType": "dine-in",
+    "customerName": "Table 12", "tableNumber": "12",
+    "items": [
+      { "id": "i18", "name": "Veggie Supreme Pizza", "quantity": 1, "modifiers": ["Gluten Free Base"], "station": "pizza", "allergens": ["Dairy"], "price": 13.95, "notes": "gluten free please" },
+      { "id": "i19", "name": "House Salad", "quantity": 1, "modifiers": ["No Onion"], "station": "prep", "price": 6.95 }
+    ],
+    "allergenNotes": "GLUTEN FREE - Celiac customer",
+    "totals": { "subtotal": 20.90, "fees": 0, "tip": 0, "total": 20.90 },
+    "paymentMethod": "Pending", "status": "preparing"
+  },
+  {
+    "id": "ord-008", "orderNumber": "ORD-008", "createdAt": "2024-12-31T10:50:00Z", "channel": "pos", "fulfillmentType": "dine-in",
+    "customerName": "Table 5", "tableNumber": "5",
+    "items": [
+      { "id": "i20", "name": "Sirloin Steak", "quantity": 2, "modifiers": ["Medium", "Well Done"], "station": "grill", "notes": "one medium, one well done", "price": 19.95 },
+      { "id": "i21", "name": "Regular Fries", "quantity": 2, "modifiers": [], "station": "fry", "price": 3.95 },
+      { "id": "i22", "name": "Margarita", "quantity": 2, "modifiers": ["No Salt Rim"], "station": "bar", "price": 8.50 }
+    ],
+    "totals": { "subtotal": 64.80, "fees": 0, "tip": 10.00, "total": 74.80 },
+    "paymentMethod": "Card", "status": "completed"
+  },
+  {
+    "id": "ord-009", "orderNumber": "ORD-009", "createdAt": "2024-12-31T10:55:00Z", "channel": "web", "fulfillmentType": "delivery",
+    "customerName": "Oliver Taylor", "customerPhone": "07703456789", "address": "25 Arlington Road, NW1 7ES",
+    "items": [
+      { "id": "i23", "name": "Lamb Curry", "quantity": 1, "modifiers": ["Mild"], "station": "grill", "allergens": ["Dairy"], "price": 14.95 },
+      { "id": "i24", "name": "Basmati Rice", "quantity": 1, "modifiers": [], "station": "prep", "price": 3.50 },
+      { "id": "i25", "name": "Onion Bhaji", "quantity": 2, "modifiers": [], "station": "fry", "allergens": ["Gluten"], "price": 4.95 },
+      { "id": "i26", "name": "Mango Lassi", "quantity": 2, "modifiers": [], "station": "bar", "allergens": ["Dairy"], "price": 3.95 }
+    ],
+    "totals": { "subtotal": 36.25, "fees": 2.99, "tip": 4.00, "total": 43.24 },
+    "paymentMethod": "Card", "status": "pending"
+  },
+  {
+    "id": "ord-010", "orderNumber": "ORD-010", "createdAt": "2024-12-31T11:00:00Z", "channel": "app", "fulfillmentType": "collection",
+    "customerName": "Sophie Miller", "customerPhone": "07704567890",
+    "items": [
+      { "id": "i27", "name": "Classic Burger", "quantity": 2, "modifiers": ["No Pickles", "Extra Cheese"], "station": "grill", "allergens": ["Gluten", "Dairy", "Sesame"], "price": 11.95 },
+      { "id": "i28", "name": "Sweet Potato Fries", "quantity": 2, "modifiers": [], "station": "fry", "price": 4.95 }
+    ],
+    "totals": { "subtotal": 33.80, "fees": 0, "tip": 0, "total": 33.80 },
+    "paymentMethod": "Card", "status": "preparing"
+  },
+  {
+    "id": "ord-011", "orderNumber": "ORD-011", "createdAt": "2024-12-31T11:05:00Z", "channel": "qr", "fulfillmentType": "dine-in",
+    "customerName": "Table 9", "tableNumber": "9",
+    "items": [
+      { "id": "i29", "name": "Grilled Salmon", "quantity": 1, "modifiers": ["No Butter"], "station": "grill", "allergens": ["Fish"], "price": 16.95 },
+      { "id": "i30", "name": "Seasonal Vegetables", "quantity": 1, "modifiers": [], "station": "prep", "price": 4.50 },
+      { "id": "i31", "name": "Glass White Wine", "quantity": 1, "modifiers": [], "station": "bar", "allergens": ["Sulphites"], "price": 6.50 }
+    ],
+    "totals": { "subtotal": 27.95, "fees": 0, "tip": 5.00, "total": 32.95 },
+    "paymentMethod": "Card", "status": "ready"
+  },
+  {
+    "id": "ord-012", "orderNumber": "ORD-012", "createdAt": "2024-12-31T11:10:00Z", "channel": "pos", "fulfillmentType": "dine-in",
+    "customerName": "Table 1", "tableNumber": "1",
+    "items": [
+      { "id": "i32", "name": "BBQ Ribs", "quantity": 1, "modifiers": ["Full Rack"], "station": "grill", "price": 18.95 },
+      { "id": "i33", "name": "Corn on the Cob", "quantity": 2, "modifiers": [], "station": "grill", "allergens": ["Dairy"], "price": 3.50 },
+      { "id": "i34", "name": "Coleslaw", "quantity": 1, "modifiers": [], "station": "prep", "allergens": ["Eggs", "Dairy"], "price": 2.50 }
+    ],
+    "totals": { "subtotal": 28.45, "fees": 0, "tip": 0, "total": 28.45 },
+    "paymentMethod": "Pending", "status": "preparing"
+  },
+  {
+    "id": "ord-013", "orderNumber": "ORD-013", "createdAt": "2024-12-31T11:15:00Z", "channel": "web", "fulfillmentType": "delivery",
+    "customerName": "Charlotte White", "customerPhone": "07705678901", "address": "5 Primrose Hill Road, NW3 3AD",
+    "items": [
+      { "id": "i35", "name": "Chicken Caesar Wrap", "quantity": 2, "modifiers": ["Extra Dressing"], "station": "prep", "allergens": ["Gluten", "Dairy", "Fish", "Eggs"], "price": 9.95 },
+      { "id": "i36", "name": "Sweet Potato Fries", "quantity": 1, "modifiers": [], "station": "fry", "price": 4.95 }
+    ],
+    "totals": { "subtotal": 24.85, "fees": 2.99, "tip": 0, "total": 27.84 },
+    "paymentMethod": "Card", "status": "pending"
+  },
+  {
+    "id": "ord-014", "orderNumber": "ORD-014", "createdAt": "2024-12-31T11:20:00Z", "channel": "app", "fulfillmentType": "collection",
+    "customerName": "Harry Johnson", "customerPhone": "07706789012",
+    "items": [
+      { "id": "i37", "name": "Vegetable Pad Thai", "quantity": 1, "modifiers": ["Extra Peanuts"], "station": "grill", "allergens": ["Peanuts", "Soy", "Eggs"], "price": 11.95 },
+      { "id": "i38", "name": "Thai Iced Tea", "quantity": 1, "modifiers": [], "station": "bar", "allergens": ["Dairy"], "price": 3.95 }
+    ],
+    "allergenNotes": "NO SHELLFISH - Allergic",
+    "totals": { "subtotal": 15.90, "fees": 0, "tip": 2.50, "total": 18.40 },
+    "paymentMethod": "Card", "status": "ready"
+  },
+  {
+    "id": "ord-015", "orderNumber": "ORD-015", "createdAt": "2024-12-31T11:25:00Z", "channel": "qr", "fulfillmentType": "dine-in",
+    "customerName": "Table 14", "tableNumber": "14",
+    "items": [
+      { "id": "i39", "name": "Bacon Cheeseburger", "quantity": 1, "modifiers": ["Medium Well", "No Onion"], "station": "grill", "allergens": ["Gluten", "Dairy", "Sesame"], "price": 13.95 },
+      { "id": "i40", "name": "Onion Rings", "quantity": 1, "modifiers": [], "station": "fry", "allergens": ["Gluten"], "price": 3.95 },
+      { "id": "i41", "name": "Chocolate Milkshake", "quantity": 1, "modifiers": [], "station": "bar", "allergens": ["Dairy"], "price": 5.50 }
+    ],
+    "totals": { "subtotal": 23.40, "fees": 0, "tip": 0, "total": 23.40 },
+    "paymentMethod": "Pending", "status": "preparing"
+  },
+  {
+    "id": "ord-016", "orderNumber": "ORD-016", "createdAt": "2024-12-31T11:30:00Z", "channel": "pos", "fulfillmentType": "collection",
+    "customerName": "Isabella Anderson", "customerPhone": "07707890123",
+    "items": [
+      { "id": "i42", "name": "Prawn Linguine", "quantity": 1, "modifiers": ["Extra Garlic"], "station": "grill", "allergens": ["Shellfish", "Gluten", "Dairy"], "price": 14.95 }
+    ],
+    "totals": { "subtotal": 14.95, "fees": 0, "tip": 0, "total": 14.95 },
+    "paymentMethod": "Cash", "status": "pending"
+  },
+  {
+    "id": "ord-017", "orderNumber": "ORD-017", "createdAt": "2024-12-31T11:35:00Z", "channel": "web", "fulfillmentType": "delivery",
+    "customerName": "George Thomas", "customerPhone": "07708901234", "address": "77 Haverstock Hill, NW3 4SL",
+    "items": [
+      { "id": "i43", "name": "Mixed Grill Platter", "quantity": 1, "modifiers": [], "station": "grill", "price": 22.95 },
+      { "id": "i44", "name": "Greek Salad", "quantity": 1, "modifiers": [], "station": "prep", "allergens": ["Dairy"], "price": 7.50 },
+      { "id": "i45", "name": "Hummus & Pitta", "quantity": 1, "modifiers": [], "station": "prep", "allergens": ["Sesame", "Gluten"], "price": 5.95 }
+    ],
+    "totals": { "subtotal": 36.40, "fees": 3.99, "tip": 5.00, "total": 45.39 },
+    "paymentMethod": "Card", "status": "pending"
+  },
+  {
+    "id": "ord-018", "orderNumber": "ORD-018", "createdAt": "2024-12-31T11:40:00Z", "channel": "app", "fulfillmentType": "dine-in",
+    "customerName": "Table 8", "tableNumber": "8",
+    "items": [
+      { "id": "i46", "name": "Mushroom Risotto", "quantity": 1, "modifiers": ["Truffle Oil", "Extra Parmesan"], "station": "grill", "allergens": ["Dairy"], "price": 13.95 },
+      { "id": "i47", "name": "Bruschetta", "quantity": 1, "modifiers": [], "station": "prep", "allergens": ["Gluten"], "price": 6.95 },
+      { "id": "i48", "name": "Prosecco", "quantity": 2, "modifiers": [], "station": "bar", "allergens": ["Sulphites"], "price": 7.50 }
+    ],
+    "totals": { "subtotal": 35.90, "fees": 0, "tip": 6.00, "total": 41.90 },
+    "paymentMethod": "Card", "status": "completed"
+  },
+  {
+    "id": "ord-019", "orderNumber": "ORD-019", "createdAt": "2024-12-31T11:45:00Z", "channel": "qr", "fulfillmentType": "dine-in",
+    "customerName": "Table 6", "tableNumber": "6",
+    "items": [
+      { "id": "i49", "name": "Kids Chicken Nuggets", "quantity": 2, "modifiers": [], "station": "fry", "allergens": ["Gluten"], "price": 6.95 },
+      { "id": "i50", "name": "Kids Fries", "quantity": 2, "modifiers": [], "station": "fry", "price": 2.95 },
+      { "id": "i51", "name": "Kids Juice Box", "quantity": 2, "modifiers": [], "station": "bar", "price": 1.95 }
+    ],
+    "customerNotes": "Birthday party - 2 candles on the cake please",
+    "totals": { "subtotal": 23.70, "fees": 0, "tip": 0, "total": 23.70 },
+    "paymentMethod": "Pending", "status": "preparing"
+  },
+  {
+    "id": "ord-020", "orderNumber": "ORD-020", "createdAt": "2024-12-31T11:50:00Z", "channel": "pos", "fulfillmentType": "collection",
+    "customerName": "Amelia Martin", "customerPhone": "07709012345",
+    "items": [
+      { "id": "i52", "name": "Tandoori Platter", "quantity": 1, "modifiers": ["Extra Hot"], "station": "grill", "allergens": ["Dairy"], "price": 16.95 },
+      { "id": "i53", "name": "Keema Naan", "quantity": 2, "modifiers": [], "station": "grill", "allergens": ["Gluten", "Dairy"], "price": 3.95 },
+      { "id": "i54", "name": "Raita", "quantity": 1, "modifiers": [], "station": "prep", "allergens": ["Dairy"], "price": 2.50 }
+    ],
+    "totals": { "subtotal": 27.35, "fees": 0, "tip": 4.00, "total": 31.35 },
+    "paymentMethod": "Card", "status": "ready"
+  }
+]

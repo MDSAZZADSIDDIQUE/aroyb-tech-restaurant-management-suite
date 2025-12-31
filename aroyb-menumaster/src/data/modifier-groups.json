@@ -1,0 +1,71 @@
+[
+  { "id": "mod-spice", "name": "Spice Level", "required": true, "minSelect": 1, "maxSelect": 1, "options": [
+    { "id": "spice-mild", "name": "Mild", "price": 0, "inStock": true },
+    { "id": "spice-medium", "name": "Medium", "price": 0, "inStock": true },
+    { "id": "spice-hot", "name": "Hot", "price": 0, "inStock": true },
+    { "id": "spice-xhot", "name": "Extra Hot", "price": 0, "inStock": true }
+  ]},
+  { "id": "mod-burger-doneness", "name": "How would you like it cooked?", "required": true, "minSelect": 1, "maxSelect": 1, "options": [
+    { "id": "cook-mr", "name": "Medium Rare", "price": 0, "inStock": true },
+    { "id": "cook-m", "name": "Medium", "price": 0, "inStock": true },
+    { "id": "cook-mw", "name": "Medium Well", "price": 0, "inStock": true },
+    { "id": "cook-w", "name": "Well Done", "price": 0, "inStock": true }
+  ]},
+  { "id": "mod-pizza-size", "name": "Pizza Size", "required": true, "minSelect": 1, "maxSelect": 1, "options": [
+    { "id": "pz-small", "name": "Small 9\"", "price": 0, "inStock": true },
+    { "id": "pz-medium", "name": "Medium 12\"", "price": 3.00, "inStock": true },
+    { "id": "pz-large", "name": "Large 14\"", "price": 5.00, "inStock": true }
+  ]},
+  { "id": "mod-pizza-crust", "name": "Crust Type", "required": false, "minSelect": 0, "maxSelect": 1, "options": [
+    { "id": "crust-classic", "name": "Classic", "price": 0, "inStock": true },
+    { "id": "crust-thin", "name": "Thin & Crispy", "price": 0, "inStock": true },
+    { "id": "crust-stuffed", "name": "Stuffed Crust", "price": 2.00, "inStock": true }
+  ]},
+  { "id": "mod-pizza-toppings", "name": "Extra Toppings", "required": false, "minSelect": 0, "maxSelect": 5, "options": [
+    { "id": "top-pepperoni", "name": "Pepperoni", "price": 1.50, "inStock": true },
+    { "id": "top-mushroom", "name": "Mushrooms", "price": 1.00, "inStock": true },
+    { "id": "top-pepper", "name": "Mixed Peppers", "price": 1.00, "inStock": true },
+    { "id": "top-olive", "name": "Olives", "price": 1.00, "inStock": true },
+    { "id": "top-jalapeno", "name": "Jalapeños", "price": 1.00, "inStock": true },
+    { "id": "top-xcheese", "name": "Extra Cheese", "price": 1.50, "inStock": false }
+  ], "conditionalRules": [{ "showWhen": { "field": "mod-pizza-size", "value": "pz-large" }}]},
+  { "id": "mod-burger-extras", "name": "Add to your burger", "required": false, "minSelect": 0, "maxSelect": 4, "options": [
+    { "id": "bex-bacon", "name": "Smoked Bacon", "price": 1.50, "inStock": true },
+    { "id": "bex-cheese", "name": "Extra Cheese", "price": 1.00, "inStock": true },
+    { "id": "bex-egg", "name": "Fried Egg", "price": 1.00, "inStock": true },
+    { "id": "bex-avocado", "name": "Avocado", "price": 2.00, "inStock": false },
+    { "id": "bex-onion", "name": "Caramelized Onions", "price": 1.00, "inStock": true }
+  ]},
+  { "id": "mod-salad-dressing", "name": "Choose Dressing", "required": true, "minSelect": 1, "maxSelect": 1, "options": [
+    { "id": "dress-caesar", "name": "Caesar", "price": 0, "inStock": true },
+    { "id": "dress-ranch", "name": "Ranch", "price": 0, "inStock": true },
+    { "id": "dress-vinaigrette", "name": "Balsamic Vinaigrette", "price": 0, "inStock": true },
+    { "id": "dress-none", "name": "No Dressing", "price": 0, "inStock": true }
+  ]},
+  { "id": "mod-rice-choice", "name": "Rice Choice", "required": true, "minSelect": 1, "maxSelect": 1, "options": [
+    { "id": "rice-pilau", "name": "Pilau Rice", "price": 0, "inStock": true },
+    { "id": "rice-basmati", "name": "Basmati Rice", "price": 0, "inStock": true },
+    { "id": "rice-coconut", "name": "Coconut Rice", "price": 1.00, "inStock": true }
+  ]},
+  { "id": "mod-curry-protein", "name": "Choose Protein", "required": true, "minSelect": 1, "maxSelect": 1, "options": [
+    { "id": "prot-chicken", "name": "Chicken", "price": 0, "inStock": true },
+    { "id": "prot-lamb", "name": "Lamb", "price": 2.50, "inStock": true },
+    { "id": "prot-prawn", "name": "King Prawns", "price": 3.00, "inStock": true },
+    { "id": "prot-paneer", "name": "Paneer (V)", "price": 0, "inStock": true },
+    { "id": "prot-veg", "name": "Mixed Vegetables (Ve)", "price": 0, "inStock": true }
+  ]},
+  { "id": "mod-drink-size", "name": "Size", "required": true, "minSelect": 1, "maxSelect": 1, "options": [
+    { "id": "drink-reg", "name": "Regular", "price": 0, "inStock": true },
+    { "id": "drink-lg", "name": "Large", "price": 0.80, "inStock": true }
+  ]},
+  { "id": "mod-drink-ice", "name": "Ice", "required": false, "minSelect": 0, "maxSelect": 1, "options": [
+    { "id": "ice-normal", "name": "Normal Ice", "price": 0, "inStock": true },
+    { "id": "ice-less", "name": "Less Ice", "price": 0, "inStock": true },
+    { "id": "ice-none", "name": "No Ice", "price": 0, "inStock": true }
+  ]},
+  { "id": "mod-breakfast-eggs", "name": "How would you like your eggs?", "required": true, "minSelect": 1, "maxSelect": 1, "options": [
+    { "id": "egg-scrambled", "name": "Scrambled", "price": 0, "inStock": true },
+    { "id": "egg-fried", "name": "Fried", "price": 0, "inStock": true },
+    { "id": "egg-poached", "name": "Poached", "price": 0, "inStock": true }
+  ]}
+]

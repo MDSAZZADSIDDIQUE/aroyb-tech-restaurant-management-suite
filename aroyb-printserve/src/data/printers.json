@@ -1,0 +1,12 @@
+[
+  { "id": "p-cam-1", "branchId": "branch-camden", "name": "Kitchen Main", "model": "EPSON TM-T20III", "type": "kitchen", "status": "online", "lastSeen": "2024-12-31T10:00:00Z", "ipAddress": "192.168.1.101" },
+  { "id": "p-cam-2", "branchId": "branch-camden", "name": "Kitchen Backup", "model": "Star TSP100", "type": "kitchen", "status": "online", "lastSeen": "2024-12-31T10:00:00Z", "ipAddress": "192.168.1.102" },
+  { "id": "p-cam-3", "branchId": "branch-camden", "name": "Front Counter", "model": "EPSON TM-T88VI", "type": "front", "status": "online", "lastSeen": "2024-12-31T10:00:00Z", "ipAddress": "192.168.1.103" },
+  { "id": "p-cam-4", "branchId": "branch-camden", "name": "Receipt Printer", "model": "Star TSP143", "type": "front", "status": "paper_low", "lastSeen": "2024-12-31T09:55:00Z", "ipAddress": "192.168.1.104" },
+  { "id": "p-cam-5", "branchId": "branch-camden", "name": "Label Printer", "model": "Brother QL-820NWB", "type": "label", "status": "online", "lastSeen": "2024-12-31T10:00:00Z", "ipAddress": "192.168.1.105" },
+  { "id": "p-sho-1", "branchId": "branch-shoreditch", "name": "Kitchen Main", "model": "Sunmi Cloud Printer", "type": "kitchen", "status": "online", "lastSeen": "2024-12-31T10:00:00Z", "ipAddress": "192.168.2.101" },
+  { "id": "p-sho-2", "branchId": "branch-shoreditch", "name": "Kitchen Bar", "model": "EPSON TM-T20III", "type": "kitchen", "status": "offline", "lastSeen": "2024-12-31T08:30:00Z", "ipAddress": "192.168.2.102" },
+  { "id": "p-sho-3", "branchId": "branch-shoreditch", "name": "Front Counter", "model": "Star mC-Print3", "type": "front", "status": "online", "lastSeen": "2024-12-31T10:00:00Z", "ipAddress": "192.168.2.103" },
+  { "id": "p-sho-4", "branchId": "branch-shoreditch", "name": "Packing Labels", "model": "DYMO LabelWriter 450", "type": "label", "status": "error", "lastSeen": "2024-12-31T09:00:00Z", "ipAddress": "192.168.2.104" },
+  { "id": "p-sho-5", "branchId": "branch-shoreditch", "name": "Allergen Labels", "model": "Brother PT-P950NW", "type": "label", "status": "online", "lastSeen": "2024-12-31T10:00:00Z", "ipAddress": "192.168.2.105" }
+]

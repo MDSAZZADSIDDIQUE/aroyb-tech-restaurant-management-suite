@@ -1,0 +1,20 @@
+[
+  { "segment": "new", "channel": "email", "dayOfWeek": "tue", "hour": 12, "openRate": 32, "clickRate": 8, "conversionRate": 2.5 },
+  { "segment": "new", "channel": "email", "dayOfWeek": "tue", "hour": 18, "openRate": 28, "clickRate": 6, "conversionRate": 1.8 },
+  { "segment": "new", "channel": "email", "dayOfWeek": "thu", "hour": 12, "openRate": 35, "clickRate": 9, "conversionRate": 2.8 },
+  { "segment": "new", "channel": "email", "dayOfWeek": "thu", "hour": 19, "openRate": 30, "clickRate": 7, "conversionRate": 2.1 },
+  { "segment": "returning", "channel": "email", "dayOfWeek": "wed", "hour": 12, "openRate": 42, "clickRate": 12, "conversionRate": 4.2 },
+  { "segment": "returning", "channel": "email", "dayOfWeek": "fri", "hour": 17, "openRate": 45, "clickRate": 14, "conversionRate": 4.8 },
+  { "segment": "returning", "channel": "sms", "dayOfWeek": "fri", "hour": 17, "openRate": 85, "clickRate": 22, "conversionRate": 6.5 },
+  { "segment": "returning", "channel": "sms", "dayOfWeek": "sat", "hour": 12, "openRate": 82, "clickRate": 20, "conversionRate": 5.8 },
+  { "segment": "vip", "channel": "email", "dayOfWeek": "thu", "hour": 19, "openRate": 58, "clickRate": 18, "conversionRate": 6.2 },
+  { "segment": "vip", "channel": "email", "dayOfWeek": "sat", "hour": 11, "openRate": 55, "clickRate": 16, "conversionRate": 5.5 },
+  { "segment": "vip", "channel": "push", "dayOfWeek": "fri", "hour": 18, "openRate": 72, "clickRate": 28, "conversionRate": 8.5 },
+  { "segment": "lapsed_14d", "channel": "email", "dayOfWeek": "tue", "hour": 11, "openRate": 25, "clickRate": 5, "conversionRate": 1.2 },
+  { "segment": "lapsed_14d", "channel": "email", "dayOfWeek": "thu", "hour": 18, "openRate": 28, "clickRate": 6, "conversionRate": 1.5 },
+  { "segment": "lapsed_14d", "channel": "sms", "dayOfWeek": "sat", "hour": 12, "openRate": 75, "clickRate": 15, "conversionRate": 3.8 },
+  { "segment": "lunch_crowd", "channel": "push", "dayOfWeek": "mon", "hour": 11, "openRate": 68, "clickRate": 25, "conversionRate": 7.2 },
+  { "segment": "lunch_crowd", "channel": "push", "dayOfWeek": "wed", "hour": 11, "openRate": 70, "clickRate": 26, "conversionRate": 7.5 },
+  { "segment": "vegetarian", "channel": "email", "dayOfWeek": "mon", "hour": 18, "openRate": 38, "clickRate": 10, "conversionRate": 3.2 },
+  { "segment": "vegetarian", "channel": "email", "dayOfWeek": "thu", "hour": 12, "openRate": 40, "clickRate": 11, "conversionRate": 3.5 }
+]

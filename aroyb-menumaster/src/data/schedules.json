@@ -1,0 +1,5 @@
+[
+  { "id": "sched-breakfast", "name": "Breakfast", "startTime": "08:00", "endTime": "11:30", "daysOfWeek": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "includedCategoryIds": ["cat-breakfast"], "includedItemIds": [], "color": "#f59e0b" },
+  { "id": "sched-lunch", "name": "Lunch", "startTime": "11:30", "endTime": "16:00", "daysOfWeek": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "includedCategoryIds": ["cat-starters", "cat-mains", "cat-pizza", "cat-burgers", "cat-curry", "cat-sides", "cat-salads", "cat-drinks"], "includedItemIds": [], "color": "#22c55e" },
+  { "id": "sched-dinner", "name": "Dinner", "startTime": "16:00", "endTime": "22:30", "daysOfWeek": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "includedCategoryIds": ["cat-starters", "cat-mains", "cat-pizza", "cat-burgers", "cat-curry", "cat-sides", "cat-salads", "cat-desserts", "cat-drinks"], "includedItemIds": [], "color": "#3b82f6" }
+]

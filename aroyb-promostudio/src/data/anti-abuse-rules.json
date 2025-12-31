@@ -1,0 +1,6 @@
+[
+  { "id": "rule-01", "name": "Device Limit", "enabled": true, "type": "device_limit", "threshold": 3, "action": "block", "description": "Block after 3 uses from same device per day" },
+  { "id": "rule-02", "name": "Velocity Check", "enabled": true, "type": "velocity", "threshold": 5, "action": "flag", "description": "Flag if same code used 5+ times in 1 hour" },
+  { "id": "rule-03", "name": "High Discount Ratio", "enabled": true, "type": "basket_ratio", "threshold": 80, "action": "require_review", "description": "Review if discount exceeds 80% of basket" },
+  { "id": "rule-04", "name": "Customer Daily Limit", "enabled": true, "type": "customer_limit", "threshold": 5, "action": "block", "description": "Block customer after 5 promo uses per day" }
+]

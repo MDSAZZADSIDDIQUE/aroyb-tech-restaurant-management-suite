@@ -1,0 +1,36 @@
+[
+  { "id": "combo-1", "name": "Burger Meal Deal", "description": "Any burger + side + drink", "price": 14.95, "slots": [
+    { "id": "slot-1", "name": "Choose Burger", "allowedItemIds": ["i19", "i20", "i21", "i22", "i23", "i24"], "defaultItemId": "i19" },
+    { "id": "slot-2", "name": "Choose Side", "allowedItemIds": ["i31", "i32", "i33"], "defaultItemId": "i31" },
+    { "id": "slot-3", "name": "Choose Drink", "allowedItemIds": ["i48", "i49", "i50", "i51"], "defaultItemId": "i48" }
+  ], "activeScheduleIds": ["sched-lunch", "sched-dinner"], "savings": 4.85 },
+  { "id": "combo-2", "name": "Pizza & Drinks for 2", "description": "Any large pizza + 2 drinks + garlic bread", "price": 24.95, "slots": [
+    { "id": "slot-1", "name": "Choose Pizza", "allowedItemIds": ["i13", "i14", "i15", "i16", "i17", "i18"], "defaultItemId": "i14" },
+    { "id": "slot-2", "name": "Drink 1", "allowedItemIds": ["i48", "i49", "i50", "i51"], "defaultItemId": "i48" },
+    { "id": "slot-3", "name": "Drink 2", "allowedItemIds": ["i48", "i49", "i50", "i51"], "defaultItemId": "i49" },
+    { "id": "slot-4", "name": "Garlic Bread", "allowedItemIds": ["i35"], "defaultItemId": "i35" }
+  ], "activeScheduleIds": ["sched-dinner"], "savings": 6.85 },
+  { "id": "combo-3", "name": "Curry Night Special", "description": "Any curry + naan + pilau rice + poppadom", "price": 16.95, "slots": [
+    { "id": "slot-1", "name": "Choose Curry", "allowedItemIds": ["i25", "i26", "i27", "i28", "i29", "i30"], "defaultItemId": "i25" },
+    { "id": "slot-2", "name": "Choose Naan", "allowedItemIds": ["i37", "i38"], "defaultItemId": "i38" },
+    { "id": "slot-3", "name": "Rice", "allowedItemIds": ["i36"], "defaultItemId": "i36" }
+  ], "activeScheduleIds": ["sched-dinner"], "savings": 5.45 },
+  { "id": "combo-4", "name": "Steak Night", "description": "Ribeye + side + glass of house wine", "price": 29.95, "slots": [
+    { "id": "slot-1", "name": "Ribeye", "allowedItemIds": ["i07"], "defaultItemId": "i07" },
+    { "id": "slot-2", "name": "Side", "allowedItemIds": ["i31", "i32"], "defaultItemId": "i31" }
+  ], "activeScheduleIds": ["sched-dinner"], "savings": 3.95 },
+  { "id": "combo-5", "name": "Lunch Express", "description": "Soup + half sandwich + coffee", "price": 9.95, "slots": [
+    { "id": "slot-1", "name": "Soup", "allowedItemIds": ["i06"], "defaultItemId": "i06" }
+  ], "activeScheduleIds": ["sched-lunch"], "savings": 2.50 },
+  { "id": "combo-6", "name": "Family Pizza Bundle", "description": "2 large pizzas + 4 sides + 4 drinks", "price": 54.95, "slots": [
+    { "id": "slot-1", "name": "Pizza 1", "allowedItemIds": ["i13", "i14", "i15", "i16", "i17"], "defaultItemId": "i14" },
+    { "id": "slot-2", "name": "Pizza 2", "allowedItemIds": ["i13", "i14", "i15", "i16", "i17"], "defaultItemId": "i15" }
+  ], "activeScheduleIds": ["sched-dinner"], "savings": 12.85 },
+  { "id": "combo-7", "name": "Starter + Main", "description": "Any starter + any main course", "price": 21.95, "slots": [
+    { "id": "slot-1", "name": "Starter", "allowedItemIds": ["i01", "i02", "i03", "i04", "i05"], "defaultItemId": "i04" },
+    { "id": "slot-2", "name": "Main", "allowedItemIds": ["i07", "i08", "i09", "i10", "i11", "i12"], "defaultItemId": "i09" }
+  ], "activeScheduleIds": ["sched-lunch", "sched-dinner"], "savings": 4.95 },
+  { "id": "combo-8", "name": "Full English + Tea/Coffee", "description": "Full English breakfast with hot drink", "price": 13.95, "slots": [
+    { "id": "slot-1", "name": "Breakfast", "allowedItemIds": ["i57"], "defaultItemId": "i57" }
+  ], "activeScheduleIds": ["sched-breakfast"], "savings": 2.00 }
+]

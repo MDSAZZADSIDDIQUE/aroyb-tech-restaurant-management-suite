@@ -1,0 +1,16 @@
+[
+  {
+    "id": "branch-camden",
+    "name": "Aroyb Camden Town",
+    "address": "42 Camden High Street, London NW1 0JH",
+    "phone": "020 7123 4567",
+    "vatNumber": "GB123456789"
+  },
+  {
+    "id": "branch-shoreditch",
+    "name": "Aroyb Shoreditch",
+    "address": "15 Brick Lane, London E1 6PU",
+    "phone": "020 7987 6543",
+    "vatNumber": "GB987654321"
+  }
+]
